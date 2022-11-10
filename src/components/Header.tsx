@@ -11,7 +11,8 @@ export const Header = () => {
         <span>Home</span>
         <span>Services</span>
         <span>Portifolio</span>
-        <span>Experience</span>
+        <span>Skills</span>
+        <span>Career</span>
         <span>Contact</span>
       </Options>
 

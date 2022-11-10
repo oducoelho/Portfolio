@@ -1,10 +1,8 @@
 import { styled } from "..";
 
-export const PortifolioContainer = styled('section', {
-  height: '100vh',
-})
+export const CarrerContainer = styled('section', {})
 export const Header = styled('div', {
-  paddingTop: '113px',
+  marginTop: '400px',
   span: {
       paddingTop: '115px',
       paddingRight: '65px',
@@ -23,21 +21,34 @@ export const Header = styled('div', {
 
     },
 })
+
+/////////////////////////////////////////////////////////////////////
+
 export const Content = styled('section', {
   display: 'grid',
-  gridTemplateColumns: 'repeat(4, 1fr)',
+  gridTemplateColumns: 'repeat(2, 1fr)',
   marginTop: '114px',
-  gap: '37px',
-  maxWidth: '200px',
-  
+  margin: '114px 150px 0 150px',
+  gap: '150px',
+})
+export const Proficional = styled('section', {
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  gap: '64px',
   div: {  
     backgroundColor: '$white300',
     borderRadius: 15,
-    img: {
-      width: '250px',
-      margin: '30px',
-      borderRadius: 15,
-    }
+  }
+})
+export const Academica = styled('div', {
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  gap: '64px',
+  div: {  
+    backgroundColor: '$white300',
+    borderRadius: 15,
   }
 })
 export const Options = styled('div', {
@@ -60,9 +71,10 @@ export const Title = styled('div', {
 })
 export const Tags = styled('div', {
   display: 'flex',
+  justifyContent: 'space-between',
   gap: '20px',
   border: 0,
-  //margin: '0 30px 0 30px',
+  paddingBottom: '30px',
 
   span: {
     fontFamily: 'Inter',
@@ -70,7 +82,6 @@ export const Tags = styled('div', {
     fontSize: '12px',
     color: '$gray100',
 
-    border: '1px solid #ccc',
     borderRadius: 4,
     padding: '2px',
   }

@@ -1,6 +1,6 @@
 import { Share } from "phosphor-react"
 import { PortifolioData } from "../data/Cards"
-import { Content, Header, Options, PortifolioContainer } from "../styles/pages/Portifolio"
+import { Content, Header, Options, PortifolioContainer, Tags, Title } from "../styles/pages/Portifolio"
 
 export const Portifolio = () => {
   return (
@@ -13,14 +13,19 @@ export const Portifolio = () => {
       <Content>
         {PortifolioData.map((portifolio) => (
           <div>
-            <img src={portifolio.image} alt="" />
             <Options>
-              <h3>{portifolio.title}</h3>
-              <div>
+              <Title>
+                <h3>{portifolio.title}</h3>
+                <p>{portifolio.resume}</p>
+              </Title>
+
+              <Tags>
                 <span>{portifolio.lenguage}</span>
                 <Share size={20} />
-              </div>
+              </Tags>
             </Options>
+
+            <img src={portifolio.image} alt="" />
           </div>
         ))}
       </Content>
