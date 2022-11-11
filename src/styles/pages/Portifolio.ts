@@ -1,6 +1,7 @@
 import { styled } from "..";
 
 export const PortifolioContainer = styled('section', {
+  margin: '0 275px',
   height: '100vh',
 })
 export const Header = styled('div', {

@@ -1,6 +1,7 @@
 import { styled } from "..";
 
 export const SkillsContainer = styled('section',{
+  margin: '0 275px',
 })
 
 export const Header = styled('div', {

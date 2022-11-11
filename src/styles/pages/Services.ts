@@ -2,7 +2,7 @@ import { styled } from "..";
 
 export const ServicesContainer = styled('section', {
   height: '100vh',
-  //backgroundColor: '$white200',
+  margin: '0 275px',
 })
 
 export const Content = styled('div', {

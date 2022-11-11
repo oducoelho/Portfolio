@@ -1,7 +1,7 @@
 import { styled } from "..";
 
 export const HomeContainer = styled('section', {
-  margin: '185px 0',
+  margin: '185px 275px',
   display: 'grid',
   height: '510px',
   gridTemplateColumns: 'repeat(2, 1fr)',

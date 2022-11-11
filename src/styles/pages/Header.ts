@@ -1,6 +1,7 @@
 import { styled } from "..";
 
 export const HeaderContainer = styled('div', {
+  margin: '0 275px',
   marginTop: '56px',
   display: 'flex',
   justifyContent: 'space-between',

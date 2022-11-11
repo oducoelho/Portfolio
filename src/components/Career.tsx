@@ -9,7 +9,6 @@ export const Career = () => {
 
         <h2>Trajectory so Far</h2>
       </Header>
-
       <Content>
         <Proficional>
           <h2>Proficional</h2>

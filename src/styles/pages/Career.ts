@@ -1,6 +1,9 @@
 import { styled } from "..";
 
-export const CarrerContainer = styled('section', {})
+export const CarrerContainer = styled('section', {
+  margin: '0 275px',
+  //height: '100vh',
+})
 export const Header = styled('div', {
   marginTop: '400px',
   span: {

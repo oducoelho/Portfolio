@@ -124,7 +124,7 @@ export const AcademicaData  = [
   {
     id: 1,
     title: 'To-do-List',
-    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.',
+    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios. ',
     time: '1 ano e 7 meses',
     date: 'Abril/2021 · Atualmente'
   },
