@@ -1,5 +1,5 @@
-import { WhatsappLogo } from "phosphor-react"
-import { ContactContainer, Content, Email, Header } from "../styles/pages/Contact"
+import { ArrowUp, WhatsappLogo } from "phosphor-react"
+import { ContactContainer, Content, Email, Footer, Header } from "../styles/pages/Contact"
 
 export const Contact = () => {
   return (
@@ -18,6 +18,9 @@ export const Contact = () => {
           <p>EduardoCoelho619@gmail.com</p>
         </Email>
       </Content>
+      <Footer>
+        <h1>Back to the Top <ArrowUp  /></h1>
+      </Footer>
     </ContactContainer>
   )
 }

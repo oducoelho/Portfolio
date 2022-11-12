@@ -24,7 +24,6 @@ export const Portifolio = () => {
                 <Share size={20} />
               </Tags>
             </Options>
-
             <img src={portifolio.image} alt="" />
           </div>
         ))}

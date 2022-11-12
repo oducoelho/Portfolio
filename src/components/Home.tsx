@@ -5,7 +5,7 @@ import HeroImage from '../assets/Hero-Image.svg'
 
 export const Home = () => {
   return (
-    <HomeContainer>
+    <HomeContainer  >
       <Content>
         <span>—MY NAME IS</span>
 

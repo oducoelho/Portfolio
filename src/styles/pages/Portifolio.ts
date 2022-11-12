@@ -1,8 +1,12 @@
 import { styled } from "..";
 
 export const PortifolioContainer = styled('section', {
-  margin: '0 275px',
-  height: '100vh',
+  display: 'flex',
+  justifyContent: 'space-between',
+  flexDirection: 'column',
+  margin: '0 auto',
+  width: '90%',
+  maxWidth: '1350px',
 })
 export const Header = styled('div', {
   paddingTop: '113px',
@@ -11,68 +15,77 @@ export const Header = styled('div', {
       paddingRight: '65px',
       fontFamily: 'Inter',
       fontweight: 500,
-      fontSize: '12px',
+      fontSize: '$ss',
       letterSpacing: '7.5px',
+      color: '$white100',
     },
 
     h2: {
-      fontSize: '36px',
+      fontSize: '$3xl',
       fontWeight: 700,
-      lineHeight: '55px',
-      color: '$gray300',
+      lineHeight: '5.5rem',
       paddingTop: '8px',
-
+      color: '$white00',
     },
 })
 export const Content = styled('section', {
   display: 'grid',
-  gridTemplateColumns: 'repeat(4, 1fr)',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+  gridGap: '20px',
+
   marginTop: '114px',
-  gap: '37px',
-  maxWidth: '200px',
-  
-  div: {  
-    backgroundColor: '$white300',
+  fontSize: '1.6rem',
+
+  div: { 
+    width: '300px',
+    height: '440',
+    border: '1px solid  $purple100',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center', 
     borderRadius: 15,
+
     img: {
-      width: '250px',
+      display: 'flex',
+      justifyContent: 'center',
+      alingItems: 'center',
+      width: '80%',
       margin: '30px',
       borderRadius: 15,
     }
   }
 })
-export const Options = styled('div', {
+export const Options = styled('section', {
   padding: '0 30px 0 30px' ,
+  
 })
-export const Title = styled('div', {
+export const Title = styled('section', {
   display: 'flex',
   flexDirection: 'column',
-  //margin: '0 30px 0 30px',
   h3: {
     fontWeight: 500,
-    lineHeight: '24px',
-    color: '$gray300',
+    lineHeight: '2.4rem',
+    color: '$white',
     padding: '20px 0' ,
   },
   p: {
     paddingBottom: '20px',
     fontSize: '$sm',
+    color: '$white100',
   },
 })
-export const Tags = styled('div', {
+export const Tags = styled('section', {
   display: 'flex',
   gap: '20px',
-  border: 0,
-  //margin: '0 30px 0 30px',
-
   span: {
     fontFamily: 'Inter',
     fontWeight: 500,
-    fontSize: '12px',
-    color: '$gray100',
+    fontSize: '$ss',
+    color: '$purple100',
 
-    border: '1px solid #ccc',
+    backgroundColor: '#7B4AE220',
     borderRadius: 4,
-    padding: '2px',
+    padding: '5px',
   }
 })

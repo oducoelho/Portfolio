@@ -2,6 +2,26 @@ import webIcon from '../assets/Icon-web.svg'
 import AplicationIcon from '../assets/Icon-aplication.svg'
 import pic from '../assets/teste.png'  
 
+export const HeaderData = [
+  {
+    name: 'Home',
+  },
+  {
+    name: 'Services',
+  },
+  {
+    name: 'Portifolio',
+  },
+  {
+    name: 'Skills',
+  },
+  {
+    name: 'Career',
+  },
+  {
+    name: 'Contact',
+  },
+]
 export const Specializ = [
   {
     id: 1,

@@ -20,7 +20,7 @@ export const Career = () => {
                       <p>{profissional.resume}</p>
                     </Title>
                     <Tags>
-                      <span>{profissional.time}</span>
+                      <span><strong>{profissional.time}</strong></span>
                       <span>{profissional.date}</span>
                     </Tags>
                   </Options>
@@ -39,7 +39,7 @@ export const Career = () => {
                     <p>{academica.resume}</p>
                   </Title>
                   <Tags>
-                    <span>{academica.time}</span>
+                    <span><strong>{academica.time}</strong></span>
                     <span>{academica.date}</span>
                   </Tags>
                 </Options>

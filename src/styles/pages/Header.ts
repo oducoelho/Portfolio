@@ -1,25 +1,24 @@
 import { styled } from "..";
 
 export const HeaderContainer = styled('div', {
-  margin: '0 275px',
-  marginTop: '56px',
-  display: 'flex',
-  justifyContent: 'space-between',
   alignItems: 'center',
-  color: '$gray300',
+  color: '$white100',
   fontFamily: 'Roboto',
   fontWeight: 400,
+
+  display: 'flex',
+  justifyContent: 'space-between',
+  margin: '0 auto',
+  width: '90%',
+  paddingTop: '40px',
+  maxWidth: '1350px',
   
-  div: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: '50px',
-
-    div: {
-      cursor: 'pointer',
-    },  
-
+  div: {      
+    '@media (max-width: 1024px)': {
+      display: 'none',
+    },
     button: {
+      color: '$white100',
       width: '100px',
       height: '41px',
       borderRadius: 8,
@@ -31,6 +30,7 @@ export const HeaderContainer = styled('div', {
 })
 
 export const Options = styled('div', {
+ 
   span: {
     cursor: 'pointer',
   },
