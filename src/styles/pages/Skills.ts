@@ -13,7 +13,7 @@ export const SkillsContainer = styled('section',{
 })
 
 export const Header = styled('div', {
-  marginTop: '400px',
+  marginTop: '114px',
   span: {
       paddingTop: '115px',
       paddingRight: '65px',

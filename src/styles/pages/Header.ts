@@ -12,6 +12,8 @@ export const HeaderContainer = styled('div', {
   width: '90%',
   paddingTop: '40px',
   maxWidth: '1350px',
+
+  //position: 'fixed',
   
   div: {      
     '@media (max-width: 1024px)': {

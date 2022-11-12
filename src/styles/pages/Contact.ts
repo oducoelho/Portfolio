@@ -8,12 +8,9 @@ export const ContactContainer =styled('section', {
   width: '90%',
   maxWidth: '1350px',
 
-  '@media (max-width: 1024px)': {
-    marginTop: '700px',
-  },
 })
 export const Header =styled('div', {
-  paddingTop: '100px',
+  marginTop: '114px',
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
@@ -26,6 +23,9 @@ export const Header =styled('div', {
     fontSize: '$ss',
     letterSpacing: '7.5px',
     color: '$white100',
+    '@media (max-width: 1024px)': {
+      paddingTop: 0,
+    },
   },
 
   h2: {
@@ -41,11 +41,21 @@ export const Content =styled('div', {
   display: 'grid',
   gridTemplateColumns: 'repeat(2, 2fr)',
   margin: '220px 450px 0 450px',
+
+  '@media (max-width: 1024px)': {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
   div: {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
 
+    '@media (max-width: 1024px)': {
+      paddingBottom: '30px',
+    },
     button: {
       display: 'flex',
       justifyContent: 'space-between',
@@ -57,6 +67,10 @@ export const Content =styled('div', {
       border: '1px solid $purple',
       backgroundColor: 'transparent',
       borderRadius: 8,
+
+      '@media (max-width: 1024px)': {
+        fontSize: '$xl',
+      },
     }
   }
 })
@@ -79,6 +93,9 @@ export const Footer = styled('div', {
   color: '$purple100',
   fontSize: '$sm',
   paddingBottom: '300px',
+  '@media (max-width: 1024px)': {
+    paddingBottom: '100px',
+  },
   h1: {
     cursor: 'pointer',
   }

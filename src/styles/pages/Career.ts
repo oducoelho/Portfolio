@@ -31,18 +31,21 @@ export const Header = styled('div', {
 
   },
 })
-
-/////////////////////////////////////////////////////////////////////
-
 export const Content = styled('section', {
   display: 'grid',
   gridTemplateColumns: 'repeat(2, 1fr)',
   marginTop: '114px',
   margin: '114px 50px 0 50px',
   gap: '150px',
+  '@media (max-width: 425px)': {
+    margin: '114px auto',
+  },
   '@media (max-width: 768px)': {
     display: 'flex',
     flexDirection: 'column',
+  },
+  '@media (max-width: 1024px)': {
+    margin: '114px auto',
   },
 })
 export const Proficional = styled('section', {

@@ -35,7 +35,21 @@ export const Content = styled('section', {
 
   marginTop: '114px',
   fontSize: '1.6rem',
-
+  
+  '@media (max-width: 1024px)': {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(2, 1fr)',
+    margin: '80px auto',
+    gridGap: '20px',
+    flexDirection: 'column',
+  },
+  
+  '@media (max-width: 688px)': {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'column',
+  },
   div: { 
     width: '300px',
     height: '440',
