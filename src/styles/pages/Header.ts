@@ -13,7 +13,9 @@ export const HeaderContainer = styled('div', {
   paddingTop: '40px',
   maxWidth: '1350px',
 
-  //position: 'fixed',
+  span: {
+    fontSize: '$md',
+  },
   
   div: {      
     '@media (max-width: 1024px)': {

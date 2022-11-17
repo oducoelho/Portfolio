@@ -193,7 +193,7 @@ export const skills = [
   {
     id: 1,
     title: 'HMTL',
-    image: html
+    image: html,
   },
   {
     id: 2,

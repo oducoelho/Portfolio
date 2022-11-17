@@ -1,4 +1,3 @@
-import { Hamburger, X } from "phosphor-react"
 import { HeaderContainer, Options } from "../styles/pages/Header"
 import logo from '../assets/svgs/logo.svg'
 //import { useState } from "react"
@@ -9,7 +8,7 @@ export const Header = () => {
   //const [ nav, setNav ] = useState(false)
   return (
     <HeaderContainer>
-      <img src={logo} alt="Logo"/>
+      <span>Eduardo</span>
 
       <Options>
         {HeaderData.map((option) => (
@@ -36,10 +35,6 @@ export const Header = () => {
         </Link>
         </ul>
       )}*/}
-        <div>
-          <button onClick={() => alert('baixou o cv')} >Download CV</button>
-        </div>
-
     </HeaderContainer>
   )
 }

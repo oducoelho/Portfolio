@@ -48,10 +48,10 @@ export const Content = styled('div', {
 })
 export const Box = styled('div', {
   display: 'grid',
-  gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-  gridGap: '70px',
-  width: '100%',
-
+  gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+  gridGap: '80px',
+  width: '80%',
+  
   '@media (max-width: 688px)': {
     display: 'flex',
     justifyContent: 'center',
@@ -59,15 +59,19 @@ export const Box = styled('div', {
     flexDirection: 'column',
   },
   div: {
-    width: '250px',
-    height: '250px',
-    boxShadow: '0 0 0 3px blueviolet',
+    width: '200px',
+    height: '200px',
+    boxShadow: '0 5px 10px #ccc',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center', 
     borderRadius: 15,
-
+    
+    '&:hover': {
+      transform: 'scale(1.05)',
+      duration: 250,
+    },
     p: {
       fontSize: '$md',
       marginTop: '15px',
