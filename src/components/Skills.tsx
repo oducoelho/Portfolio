@@ -1,5 +1,5 @@
-import { Content, Header, SkillsContainer } from "../styles/pages/Skills"
-import WorkingTechs from '../assets/WorkingTechs.png'
+import { Box, Content, Header, SkillsContainer } from "../styles/pages/Skills"
+import { skills } from "../data/Cards"
 
 export const Skills = () => {
   return (
@@ -11,10 +11,15 @@ export const Skills = () => {
       </Header>
       <Content>
         <span>Techs que uso no dia a dia</span>
-        <img src={WorkingTechs} alt="" />
+        <Box >
+        {skills.map((skill) => (
+            <div key={skill.id}>
+              <img src={skill.image} width={150} alt='' />
+              <p>{skill.title}</p>
+            </div>
+        ))}
+        </Box>
       </Content>
     </SkillsContainer>
-
   )
-
 }

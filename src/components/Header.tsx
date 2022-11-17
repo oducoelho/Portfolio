@@ -1,6 +1,6 @@
 import { Hamburger, X } from "phosphor-react"
 import { HeaderContainer, Options } from "../styles/pages/Header"
-import logo from '../assets/logo.svg'
+import logo from '../assets/svgs/logo.svg'
 //import { useState } from "react"
 import { HeaderData } from "../data/Cards"
 //import { Link } from "react-scroll";

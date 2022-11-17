@@ -7,11 +7,7 @@ export const SkillsContainer = styled('section',{
   margin: '0 auto',
   width: '90%',
   maxWidth: '1350px',
-  //'@media (max-width: 1440px)': {
-  //  marginTop: '700px',
-  //},
 })
-
 export const Header = styled('div', {
   marginTop: '114px',
   span: {
@@ -35,21 +31,46 @@ export const Header = styled('div', {
 })
 export const Content = styled('div', {
   display: 'flex',
-  margin: '200px 0',
+  margin: '150px 0',
   justifyContent: 'center',
   alignItems: 'center',
   flexDirection: 'column',
-  '@media (max-width: 1024px)': {
-    img: {
-      width: '0',
-    }
-  },
+
+
   span: {
-    paddingBottom: '40px',
+    paddingBottom: '100px',
     fontWeight: 400,
     fontSize: '$xl',
     fontHeight: '28px',
     color: '$white100',
   }
 
+})
+export const Box = styled('div', {
+  display: 'grid',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
+  gridGap: '70px',
+  width: '100%',
+
+  '@media (max-width: 688px)': {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'column',
+  },
+  div: {
+    width: '250px',
+    height: '250px',
+    boxShadow: '0 0 0 3px blueviolet',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center', 
+    borderRadius: 15,
+
+    p: {
+      fontSize: '$md',
+      marginTop: '15px',
+    }
+  }
 })

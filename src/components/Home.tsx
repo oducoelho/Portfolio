@@ -1,7 +1,7 @@
 import { GithubLogo, InstagramLogo, LinkedinLogo, TwitterLogo } from "phosphor-react"
 import { Content, HomeContainer, Picture } from "../styles/pages/Home"
 
-import HeroImage from '../assets/Hero-Image.svg'
+import HeroImage from '../assets/svgs/Hero-Image.svg'
 
 export const Home = () => {
   return (

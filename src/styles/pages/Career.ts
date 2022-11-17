@@ -9,7 +9,7 @@ export const CarrerContainer = styled('section', {
   maxWidth: '1350px',
 })
 export const Header = styled('div', {
-  marginTop: '400px',
+  marginTop: '200px',
   textAlign: 'center',
 
   span: {
