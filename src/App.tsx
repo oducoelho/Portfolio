@@ -4,7 +4,7 @@ import { Footer } from "./components/Footer"
 import { Header } from "./components/Header"
 import { Home } from "./components/Home"
 import { Portifolio } from "./components/Portifolio"
-import { Services } from "./components/Services"
+import { Services } from "./components/About"
 import { Skills } from "./components/Skills"
 import { globalStyles } from "./styles/global"
 

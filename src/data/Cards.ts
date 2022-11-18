@@ -1,5 +1,3 @@
-import webIcon from '../assets/svgs/Icon-web.svg'
-import AplicationIcon from '../assets/svgs/Icon-aplication.svg'
 import pic from '../assets/portfolio/teste.png'  
 
 import html from '../assets/html.png'  
@@ -19,7 +17,7 @@ export const HeaderData = [
     name: 'Home',
   },
   {
-    name: 'Services',
+    name: 'About',
   },
   {
     name: 'Portifolio',
@@ -34,20 +32,6 @@ export const HeaderData = [
     name: 'Contact',
   },
 ]
-export const Specializ = [
-  {
-    id: 1,
-    image: AplicationIcon,
-    title: 'Aplication Development',
-    content: 'Standard designing, building, and implementing your applications with documentation.',
-  },
-  {
-    id: 2,
-    image: webIcon,
-    title: 'Web development',
-    content: 'Create and maintain your websites and also take care of its perfomance and traffic capacity',
-  },
-]   
 export const PortifolioData = [
   {
     id: 1,

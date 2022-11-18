@@ -9,7 +9,7 @@ export const PortifolioContainer = styled('section', {
   maxWidth: '1350px',
 })
 export const Header = styled('div', {
-  paddingTop: '113px',
+  paddingTop: '240px',
   span: {
       paddingTop: '115px',
       paddingRight: '65px',

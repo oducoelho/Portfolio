@@ -70,7 +70,7 @@ export const Box = styled('div', {
     
     '&:hover': {
       transform: 'scale(1.05)',
-      duration: 250,
+      transitionDuration: '300ms',
     },
     p: {
       fontSize: '$md',
