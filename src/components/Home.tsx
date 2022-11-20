@@ -1,28 +1,34 @@
-import { GithubLogo, InstagramLogo, LinkedinLogo, TwitterLogo } from "phosphor-react"
-import { Content, HomeContainer, Picture } from "../styles/pages/Home"
+import { ArrowDown, GithubLogo, InstagramLogo, LinkedinLogo, TwitterLogo, WhatsappLogo } from "phosphor-react"
+import { Content, Download, HomeContainer, Name, Picture } from "../styles/pages/Home"
 
-import HeroImage from '../assets/svgs/Hero-Image.svg'
+import HeroImage from '../assets/svgs/AvatarAndIcons.svg'
 
 export const Home = () => {
   return (
-    <HomeContainer  >
+    <HomeContainer>
       <Content>
-        <span>—MY NAME IS</span>
+        <Name>
+        <h1>Eduardo Coelho</h1>
+          <p>Front-end developer</p>
+          <ul>
+            <li><GithubLogo size={25} /></li>
+            <li><InstagramLogo size={25} /></li>
+            <li><LinkedinLogo size={25} /></li>
+            <li><TwitterLogo size={25} /></li>
+          </ul>
+        </Name>
+        
 
-        <h1>Eduardo <strong>Coelho.</strong></h1>
+        <Picture>
+          <img src={HeroImage} alt="" />
+        </Picture>
+        
 
-        <p>Studying Systems Analysis and Development. I'm looking for my first opportunity as a developer. I consider myself a dedicated person who seeks to evolve and learn more every day. I keep studying and with focus and determination to achieve my goals!!</p>
-
-        <div> 
-          <InstagramLogo size={30} />
-          <GithubLogo size={30} width={50}/>
-          <TwitterLogo size={30} width={50}/>
-          <LinkedinLogo size={30} width={50}/>
-        </div>
+        <Download>
+          <span>Download CV <ArrowDown /></span>
+          <button><WhatsappLogo /> Lets talk</button>
+        </Download>
       </Content>
-      <Picture>
-        <img src={HeroImage} alt="" />
-      </Picture>
     </HomeContainer>
   )
 }

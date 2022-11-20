@@ -4,6 +4,7 @@ export const AboutContainer = styled('section', {
   margin: '0 auto',
   width: '90%',
   maxWidth: '1350px',
+  
 })
 
 export const Content = styled('div', {
@@ -11,6 +12,9 @@ export const Content = styled('div', {
   flexDirection: 'column',
   alignItems: 'center',
   span: {
+  '@media (max-width: 1024px)': {
+    marginTop: '150px',
+    },
     paddingRight: '45px',
     fontFamily: 'Inter',
     fontweight: 500,
@@ -36,6 +40,14 @@ export const Text = styled('div', {
     width: '300px',
     marginLeft: '150px',
     borderRadius: 8,
+  },
+  '@media (max-width: 1024px)': {
+    img: {
+      width: '0px',
+    },
+    div: {
+      
+    }
   },
   div: {
     display: 'flex',
