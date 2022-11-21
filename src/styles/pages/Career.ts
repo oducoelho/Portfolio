@@ -55,8 +55,24 @@ export const Proficional = styled('section', {
   gap: '64px',
   fontSize: '1.6rem',
   div: {  
-    border: '1px solid $purple100',
+    boxShadow: '0 5px 10px gray',
     borderRadius: 15,
+    '&:hover': {
+      transform: 'scale(1.05)',
+      transitionDuration: '300ms',
+      backgroundColor: 'gray',
+      color: '$black',
+      cursor: 'pointer',
+      h3: {
+        color: '$black'
+      },
+      p: {
+        color: '$black'
+      },
+      span: {
+        color: '$black'
+      },
+    }
   },
 
 })
@@ -67,8 +83,24 @@ export const Academica = styled('div', {
   gap: '64px',
   fontSize: '1.6rem',
   div: {  
-    border: '1px solid $purple100',
+    boxShadow: '0 5px 10px gray',
     borderRadius: 15,
+    '&:hover': {
+      transform: 'scale(1.05)',
+      transitionDuration: '300ms',
+      backgroundColor: 'gray',
+      color: '$black',
+      cursor: 'pointer',
+      h3: {
+        color: '$black'
+      },
+      p: {
+        color: '$black'
+      },
+      span: {
+        color: '$black'
+      },
+    }
   }
 })
 export const Options = styled('div', {
@@ -101,7 +133,7 @@ export const Tags = styled('section', {
     fontFamily: 'Inter',
     fontWeight: 500,
     fontSize: '$ss',
-    color: '$purple100',
+    color: '$gray',
 
     borderRadius: 4,
     padding: '2px',

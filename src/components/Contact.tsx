@@ -1,4 +1,4 @@
-import { ArrowUp, WhatsappLogo } from "phosphor-react"
+import { ArrowUp, Cards, PaperPlaneTilt, WhatsappLogo } from "phosphor-react"
 import { ContactContainer, Content, Email, Footer, Header } from "../styles/pages/Contact"
 
 export const Contact = () => {
@@ -11,11 +11,13 @@ export const Contact = () => {
       </Header>
       <Content>
         <div>
-          <button><WhatsappLogo size={20} />Let's Talk!</button>
+          <button><WhatsappLogo size={30} />Let's Talk!</button>
         </div>
         <Email>
+          <PaperPlaneTilt size={20} color={'gray'}/>
           <span>E-mail:</span>
           <p>EduardoCoelho619@gmail.com</p>
+          <Cards size={20} color={'gray'} />
         </Email>
       </Content>
       <Footer>

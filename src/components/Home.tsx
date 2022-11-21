@@ -26,7 +26,7 @@ export const Home = () => {
 
         <Download>
           <span>Download CV <ArrowDown /></span>
-          <button><WhatsappLogo /> Lets talk</button>
+          <button><WhatsappLogo size={30} /> Lets talk</button>
         </Download>
       </Content>
     </HomeContainer>

@@ -1,28 +1,30 @@
 import { styled } from "..";
 
 export const ContactContainer =styled('section', {
-  display: 'flex',
-  alignItems: 'center',
-  flexDirection: 'column',
   margin: '0 auto',
   width: '90%',
   maxWidth: '1350px',
 
+  display: 'flex',
+  alignItems: 'center',
+  flexDirection: 'column',
 })
 export const Header =styled('div', {
   marginTop: '114px',
+  
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
 
   span: {
-    paddingTop: '115px',
-    paddingRight: '5px',
     fontFamily: 'Inter',
     fontweight: 500,
     fontSize: '$ss',
-    letterSpacing: '7.5px',
+    paddingTop: '115px',
+    paddingRight: '5px',
     color: '$white100',
+    letterSpacing: '7.5px',
+
     '@media (max-width: 1024px)': {
       paddingTop: 0,
     },
@@ -34,7 +36,6 @@ export const Header =styled('div', {
     lineHeight: '5.5rem',
     color: '$white',
     paddingTop: '8px',
-
   },
 })
 export const Content =styled('div', {
@@ -45,8 +46,6 @@ export const Content =styled('div', {
   '@media (max-width: 1024px)': {
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
   },
   div: {
     display: 'flex',
@@ -57,28 +56,40 @@ export const Content =styled('div', {
       paddingBottom: '30px',
     },
     button: {
-      display: 'flex',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-      padding: '10px 25px',
-      color: '$purple100',
+      marginTop: '15px',
       fontSize: '$md',
-
-      border: '1px solid $purple',
-      backgroundColor: 'transparent',
+      height: '45px',
+      width: '200px',
+      color: '$text', 
+      cursor: 'pointer',
+      
+      border: '1px solid #ccc',
+      background: '$background',
       borderRadius: 8,
-
+      
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      gap: '10px',
+    
       '@media (max-width: 1024px)': {
-        fontSize: '$xl',
+        height: '45px',
+        width: '150px',
       },
-    }
+      '@media (max-width: 425px)': {
+        marginTop: '-20px',
+      },
+    },
   }
 })
 export const Email = styled('div', {
+  fontSize: '1.6rem',
+  lineHeight: 1.6,
+
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  fontSize: '1.6rem',
+
   span: { 
     color: '$purple',
     lineHeight: 1.6,
@@ -86,13 +97,15 @@ export const Email = styled('div', {
 })
 export const Footer = styled('div', {
   paddingTop: '100px',
+  color: '$purple100',
+  fontSize: '$sm',
+  paddingBottom: '300px',
+
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
-  color: '$purple100',
-  fontSize: '$sm',
-  paddingBottom: '300px',
+  
   '@media (max-width: 1024px)': {
     paddingBottom: '100px',
   },
