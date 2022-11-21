@@ -5,52 +5,40 @@ export const HomeContainer = styled('section', {
   margin: '50px auto',
   width: '90%',
   maxWidth: '1350px',
-
-  '@media (max-width: 1024px)': {
-    //marginTop: '17px',
-    HomeContainer: {
-      alignItems: 'center',
-      justifyContent: 'center',
-    }
+  
+  '@media (max-width: 425px)': {
+    margin: '0 auto',
   },
 })
 export const Content = styled('div', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
-  '@media (max-width: 1024px)': {
-    display: 'flex',
-    flexDirection: 'column',
-  },
+
   div: {
     color: '$text',
     paddingTop: '42px',
-    '@media (max-width: 1024px)': {
-      HomeContainer: {
-        justifyContent: 'center',
-      }
-    },
   }
 })
-export const Picture = styled('div', {
+export const Picture = styled('div', {  
   paddingRight: '60px',
   '@media (max-width: 1024px)': {
-    position: 'absolute',
-    bottom: '100px',
-    left: '200px',
+    paddingRight: '0px',
+    img: {
+      width: '500px',
+      marginLeft: '5px',
+    },
   },
   '@media (max-width: 768px)': {
-    position: 'absolute',
-    bottom: '100px',
-    left: '100px',
+    img: {
+      marginLeft: '105px',
+    },
   },
   '@media (max-width: 425px)': {
-    position: 'absolute',
-    bottom: '400px',
-    left: '75px',
-    img: { 
-      width: '290px',
-    }
+    img: {
+      width: '400px',
+      marginLeft: '5px',
+    },
   },
 })
 export const Name = styled('div', {
@@ -58,49 +46,50 @@ export const Name = styled('div', {
     fontSize: '4.5rem',
     fontWeight: 700,
     color: '$white',
-    '@media (max-width: 1024px)': {
-      textAlign: 'center',
-    },
   },
   p: {
     fontSize: '$md',
     lineHeight: 2.6,
-    '@media (max-width: 1024px)': {
-      textAlign: 'center',
-    },
   },
   ul: {
+    listStyle: 'none',
+
     display: 'flex',
     gap: '10px',
-    listStyle: 'none',
-    li: {
-      cursor: 'poiner',
-    },
   },
-  '@media (max-width: 1024px)': {
+  '@media (max-width: 768px)': {
     position: 'absolute',
-    bottom: '-50px',
+    top: '590px',
   },
   '@media (max-width: 425px)': {
-    display: 'flex',
-    justifyContent: 'start',
-    flexDirection: 'column',
-    top: '450px',
+    position: 'absolute',
+    top: '520px',
   },
 })
 export const Download = styled('div', {
-  '@media (max-width: 1024px)': {
+  '@media (max-width: 768px)': {
+    position: 'absolute',
+    top: '750px',
+
     display: 'flex',
     flexDirection: 'row',
-    gap: '15px',
-    marginTop: '780px',
+    gap: '100px',
+
+    span: {
+      paddingTop: '15px',
+    },
   },
   '@media (max-width: 425px)': {
+    position: 'absolute',
+    top: '650px',
+
     display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    gap: '15px',
-    marginTop: '500px',
+    flexDirection: 'row',
+    gap: '100px',
+
+    span: {
+      paddingTop: '15px',
+    },
   },
   span: {
     display: 'flex',

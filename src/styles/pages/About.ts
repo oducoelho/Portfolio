@@ -12,9 +12,6 @@ export const Content = styled('div', {
   flexDirection: 'column',
   alignItems: 'center',
   span: {
-  '@media (max-width: 1024px)': {
-    marginTop: '150px',
-    },
     paddingRight: '45px',
     fontFamily: 'Inter',
     fontweight: 500,
