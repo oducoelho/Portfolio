@@ -1,6 +1,9 @@
 import { styled } from "..";
 
 export const AboutContainer = styled('section', {
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'space-between',
   margin: '0 auto',
   width: '90%',
   maxWidth: '1350px',

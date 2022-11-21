@@ -5,7 +5,7 @@ import HeroImage from '../assets/svgs/AvatarAndIcons.svg'
 
 export const Home = () => {
   return (
-    <HomeContainer>
+    <HomeContainer name="home">
       <Content>
         <Name>
         <h1>Eduardo Coelho</h1>

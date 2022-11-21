@@ -15,21 +15,27 @@ import stylesComponents from '../assets/styles-components.png'
 export const HeaderData = [
   {
     name: 'Home',
+    link: "home",
   },
   {
     name: 'About',
+    link: "about",
   },
   {
     name: 'Portifolio',
+    link: "portfolio",
   },
   {
     name: 'Skills',
+    link: "skills",
   },
   {
-    name: 'Career',
+    name: 'Carrer',
+    link: "carrer",
   },
   {
     name: 'Contact',
+    link: "contact",
   },
 ]
 export const PortifolioData = [

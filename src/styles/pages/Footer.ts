@@ -4,7 +4,7 @@ export const FooterContainer = styled('footer', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  backgroundColor: '$purple50',
+  backgroundColor: '$gray900',
   height: '88px',
   width: '100%',
 

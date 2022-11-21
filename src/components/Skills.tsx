@@ -3,7 +3,7 @@ import { skills } from "../data/Cards"
 
 export const Skills = () => {
   return (
-    <SkillsContainer>
+    <SkillsContainer name="skills">
       <Header>
         <span>— SKILLS</span>
 

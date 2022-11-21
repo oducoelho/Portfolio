@@ -1,4 +1,4 @@
-import { Career } from "./components/Career"
+import { Career } from "./components/Carrer"
 import { Contact } from "./components/Contact"
 import { Footer } from "./components/Footer"
 import { Header } from "./components/Header"

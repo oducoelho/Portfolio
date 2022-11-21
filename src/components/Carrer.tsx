@@ -1,9 +1,9 @@
 import { AcademicaData, ProfissionalData } from "../data/Cards"
-import { Academica, CarrerContainer, Content, Header, Options, Proficional, Tags, Title } from "../styles/pages/Career"
+import { Academica, CarrerContainer, Content, Header, Options, Proficional, Tags, Title } from "../styles/pages/Carrer"
 
 export const Career = () => {
   return (
-    <CarrerContainer>
+    <CarrerContainer name="carrer">
       <Header>
         <span>— CARRER</span>
 

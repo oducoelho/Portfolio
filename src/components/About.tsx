@@ -2,7 +2,7 @@ import { AboutContainer, Content, Text } from "../styles/pages/About"
 import Me from "../assets/Eduardo.jpeg"
 export const Services = () => {
   return (
-    <AboutContainer>
+    <AboutContainer name="about">
       <Content>
         <span>— ABOUT</span>
 

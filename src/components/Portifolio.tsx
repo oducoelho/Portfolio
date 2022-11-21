@@ -4,7 +4,7 @@ import { Content, Header, Options, PortifolioContainer, Tags, Title } from "../s
 
 export const Portifolio = () => {
   return (
-    <PortifolioContainer>
+    <PortifolioContainer name="portfolio">
       <Header>
         <span>— PORTIFOLIO</span>
 

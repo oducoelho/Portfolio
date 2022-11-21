@@ -3,7 +3,7 @@ import { ContactContainer, Content, Email, Footer, Header } from "../styles/page
 
 export const Contact = () => {
   return (
-    <ContactContainer>
+    <ContactContainer name="contact">
       <Header>
         <span>— CONTACT</span>
 

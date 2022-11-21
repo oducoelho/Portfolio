@@ -41,7 +41,7 @@ export const Header =styled('div', {
 export const Content =styled('div', {
   display: 'grid',
   gridTemplateColumns: 'repeat(2, 2fr)',
-  margin: '220px 450px 0 450px',
+  margin: '170px 450px 0 450px',
 
   '@media (max-width: 1024px)': {
     display: 'flex',
