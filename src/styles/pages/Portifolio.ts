@@ -11,8 +11,6 @@ export const PortifolioContainer = styled('section', {
 export const Header = styled('div', {
   paddingTop: '240px',
   span: {
-      paddingTop: '115px',
-      paddingRight: '65px',
       fontFamily: 'Inter',
       fontweight: 500,
       fontSize: '$ss',
@@ -24,7 +22,6 @@ export const Header = styled('div', {
       fontSize: '$3xl',
       fontWeight: 700,
       lineHeight: '5.5rem',
-      paddingTop: '8px',
       color: '$white00',
     },
 })
@@ -41,38 +38,59 @@ export const Content = styled('section', {
     gridTemplateColumns: 'repeat(2, 1fr)',
     margin: '80px auto',
     gridGap: '20px',
-    flexDirection: 'column',
   },
   
   '@media (max-width: 688px)': {
     display: 'flex',
+    flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    flexDirection: 'column',
   },
   div: { 
     width: '300px',
     height: '440',
-    border: '1px solid  $purple100',
+    boxShadow: '0 5px 10px gray',
+    borderRadius: 15,
+
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center', 
-    borderRadius: 15,
 
+    '&:hover': {
+      transform: 'scale(1.05)',
+      transitionDuration: '300ms',
+      backgroundColor: 'gray',
+      color: '$black',
+      cursor: 'pointer',
+
+      h3: {
+        fontWeight: 'bold',
+        color: '$black',
+      },
+      p: {
+        color: '$black',
+      },
+      span: {
+        fontWeight: 'bold',
+        color: '$black',
+        backgroundColor: '#c0c0c0',
+      }
+    },
     img: {
       display: 'flex',
       justifyContent: 'center',
       alingItems: 'center',
+
       width: '80%',
       margin: '30px',
+
       borderRadius: 15,
     }
   }
 })
 export const Options = styled('section', {
-  padding: '0 30px 0 30px' ,
-  
+  padding: '0 30px' ,
 })
 export const Title = styled('section', {
   display: 'flex',
@@ -80,13 +98,13 @@ export const Title = styled('section', {
   h3: {
     fontWeight: 500,
     lineHeight: '2.4rem',
-    color: '$white',
     padding: '20px 0' ,
+    color: '$white',
   },
   p: {
-    paddingBottom: '20px',
     fontSize: '$sm',
     color: '$white100',
+    paddingBottom: '20px',
   },
 })
 export const Tags = styled('section', {
@@ -94,11 +112,10 @@ export const Tags = styled('section', {
   gap: '20px',
   span: {
     fontFamily: 'Inter',
-    fontWeight: 500,
     fontSize: '$ss',
-    color: '$purple100',
+    color: '$white100',
 
-    backgroundColor: '#7B4AE220',
+    backgroundColor: '#d3d3d340',
     borderRadius: 4,
     padding: '5px',
   }
