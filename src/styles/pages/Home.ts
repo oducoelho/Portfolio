@@ -2,7 +2,7 @@ import { styled } from "..";
 
 export const HomeContainer = styled('section', {
   height: '100vh',
-  margin: '50px auto',
+  margin: '100px auto',
   width: '90%',
   maxWidth: '1350px',
   
