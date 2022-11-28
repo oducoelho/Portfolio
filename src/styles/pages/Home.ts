@@ -53,7 +53,7 @@ export const Name = styled('div', {
   },
   ul: {
     listStyle: 'none',
-
+    textDecoration: 'none',
     display: 'flex',
     gap: '10px',
   },
@@ -99,6 +99,10 @@ export const Download = styled('div', {
     fontFamily: 'Inter',
     fontweight: 500,
     fontSize: '$sm',
+    a: {
+      textDecoration: 'none',
+      color: '$gray100',
+    },
 
     cursor: 'pointer',
   },

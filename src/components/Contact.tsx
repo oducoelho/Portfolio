@@ -1,5 +1,7 @@
 import { ArrowUp, Cards, PaperPlaneTilt, WhatsappLogo } from "phosphor-react"
 import { ContactContainer, Content, Email, Footer, Header } from "../styles/pages/Contact"
+import { Link } from "react-scroll";
+import { BackToTheTop } from "../data/Cards";
 
 export const Contact = () => {
   return (
@@ -21,7 +23,11 @@ export const Contact = () => {
         </Email>
       </Content>
       <Footer>
-        <h1>Back to the Top <ArrowUp  /></h1>
+        {BackToTheTop.map((option) => (
+          <Link to={option.link} smooth duration={700}>
+            <h1>Back to the Top <ArrowUp  /></h1>
+          </Link>
+        ))}
       </Footer>
     </ContactContainer>
   )

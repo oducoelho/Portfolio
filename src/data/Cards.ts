@@ -12,6 +12,12 @@ import typescript from '../assets/typescript.png'
 import stitches from '../assets/stitches.png'  
 import stylesComponents from '../assets/styles-components.png'  
 
+export const BackToTheTop = [
+  {
+    name: 'Home',
+    link: "home", 
+  }
+]
 export const HeaderData = [
   {
     name: 'Home',

@@ -11,9 +11,9 @@ export const Home = () => {
         <h1>Eduardo Coelho</h1>
           <p>Front-end developer</p>
           <ul>
-            <li><GithubLogo size={25} /></li>
-            <li><InstagramLogo size={25} /></li>
-            <li><LinkedinLogo size={25} /></li>
+            <li><a href="https://github.com/oducoelho" target={"_blank"}><GithubLogo size={25}  color={'#656D72'} /></a></li>                                                     
+            <li><a href="https://instagram.com/oducoelho" target={"_blank"}><InstagramLogo size={25} color={'#656D72'} /></a></li>
+            <li><a href="https://www.linkedin.com/in/eduardo-coelho-568226207/" target={"_blank"}><LinkedinLogo size={25} color={'#656D72'} /></a></li>
             <li><TwitterLogo size={25} /></li>
           </ul>
         </Name>
@@ -25,7 +25,9 @@ export const Home = () => {
         
 
         <Download>
-          <span>Download CV <ArrowDown /></span>
+          <span>
+            <a href="../../archive/Curriculum-Eduardo.pdf" download>Download CV <ArrowDown /></a>  
+          </span>
           <button><WhatsappLogo size={30} /> Lets talk</button>
         </Download>
       </Content>
