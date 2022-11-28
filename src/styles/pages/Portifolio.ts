@@ -109,7 +109,7 @@ export const Title = styled('section', {
 })
 export const Tags = styled('section', {
   display: 'flex',
-  gap: '20px',
+  gap: '10px',
   span: {
     fontFamily: 'Inter',
     fontSize: '$ss',
@@ -118,5 +118,5 @@ export const Tags = styled('section', {
     backgroundColor: '#d3d3d340',
     borderRadius: 4,
     padding: '5px',
-  }
+  },
 })

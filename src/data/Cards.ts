@@ -1,4 +1,12 @@
-import pic from '../assets/portfolio/teste.png'  
+import GitHub from '../assets/portfolio/GitHub.jpg'
+import TodoList from '../assets/portfolio/TodoList.jpg'
+import IgniteShop from '../assets/portfolio/IgniteShop.jpg'
+import DTMoney from '../assets/portfolio/DTMoney.jpg'
+import CoffeeDelivery from '../assets/portfolio/CoffeeDelivery.jpg'
+import IgniteTimer from '../assets/portfolio/IgniteTimer.jpg'
+import NLWCopa from '../assets/portfolio/NLWCopa.jpg'
+import NLWeSports from '../assets/portfolio/NLWEsports.jpg'
+
 
 import html from '../assets/html.png'  
 import css from '../assets/css.png'  
@@ -47,67 +55,75 @@ export const HeaderData = [
 export const PortifolioData = [
   {
     id: 1,
-    image: pic,
-    title: 'To-do-List',
-    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.',
+    image: NLWCopa,
+    title: 'NLW Copa',
+    resume: 'Project created during the NLW COPA event where a web and mobile platform was developed where we can create pools and make our guesses.',
     lenguage: 'React',
-    code: ''
+    lenguage2: 'NextJs',
+    code: 'https://github.com/oducoelho/NLW_Copa_Ignite'
   },
   {
     id: 2,
-    image: pic,
-    title: 'Coffe-Delivery',
-    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.',
-    lenguage: 'TypeScript',
-    code: ''
+    image: IgniteShop,
+    title: 'Ignite Shop 2.0',
+    resume: 'Through the application, the number of items that the person wants to buy, with the option to add and remove items before proceeding to checkout.',
+    lenguage: 'React',
+    lenguage2: 'NextJs',
+    code: 'https://github.com/oducoelho/Ignite_Shop'
   },
   {
     id: 3,
-    image: pic,
-    title: 'Ignite-Shop',
-    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.',
-    lenguage: 'JavaScript',
-    code: ''
+    image: DTMoney,
+    title: 'DT Money',
+    resume: 'A careful application for monitoring your finances, with the options to add your money inflows and outflows.',
+    lenguage: 'ReactJs',
+    lenguage2: 'TypeScript',
+    code: 'https://github.com/oducoelho/03-DT-Money'
   },
   {
-    id: 3,
-    image: pic,
-    title: 'Ignite-Shop',
-    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.',
-    lenguage: 'JavaScript',
-    code: ''
+    id: 4,
+    image: GitHub,
+    title: 'GitHub Blog',
+    resume: 'In this project, an application was developed that uses the GitHub API to search within the repository, the data and issues, from the profile and display them as a blog.',
+    lenguage: 'ReactJs',
+    lenguage2: 'TypeScript',
+    code: 'https://github.com/oducoelho/GitHubBlog'
   },
   {
-    id: 3,
-    image: pic,
-    title: 'Ignite-Shop',
-    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.',
-    lenguage: 'JavaScript',
-    code: ''
+    id: 5,
+    image: IgniteTimer,
+    title: 'Ignite Timer',
+    resume: 'An application of the Pomodoro technique, which consists of using a stopwatch to divide work into 25-minute periods, separated by short breaks.',
+    lenguage: 'ReactJs',
+    lenguage2: 'TypeScript',
+    code: 'https://github.com/oducoelho/Ignite-Timer'
   },
   {
-    id: 3,
-    image: pic,
-    title: 'Ignite-Shop',
-    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.',
-    lenguage: 'JavaScript',
-    code: ''
+    id: 6,
+    image: NLWeSports,
+    title: 'NLW eSports',
+    resume: 'Project carried out at NLW eSports, which consists of an application to find people who play the same game as you, and are without a duo to play.',
+    lenguage: 'ReactJs',
+    lenguage2: 'TypeScript',
+    code: 'https://github.com/oducoelho/NLW-eSports-Trilha-ignite'
   },
   {
-    id: 3,
-    image: pic,
-    title: 'Ignite-Shop',
-    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.',
-    lenguage: 'JavaScript',
-    code: ''
+    id: 7,
+    image: CoffeeDelivery,
+    title: 'Coffee Delivery',
+    resume: 'Application with 3 screens, the first being a presentation screen. On the second screen, a form with your address data and the items in your cart. E On the last screen, an order confirmation is displayed.',
+    lenguage: 'ReactJs',
+    lenguage2: 'TypeScript',
+    code: 'https://github.com/oducoelho/CoffeeDelivery'
   },
   {
-    id: 3,
-    image: pic,
-    title: 'Ignite-Shop',
-    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.',
-    lenguage: 'JavaScript',
-    code: ''
+    id: 8,
+    image: TodoList,
+    title: 'To-do-List',
+    resume: 'An application inspired by a ToDo List, with the functions to insert a new task, mark it as done, and delete it.',
+    lenguage: 'ReactJs',
+    lenguage2: 'TypeScript',
+    code: 'https://github.com/oducoelho/ToDoList-Ignite'
   },
   
 ]

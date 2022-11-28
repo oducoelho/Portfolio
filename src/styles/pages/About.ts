@@ -72,16 +72,5 @@ export const Text = styled('div', {
       color: '$text',
       fontSize: '1.6rem'
     },
-
-    button: {
-      marginTop: '45px',
-      height: '45px',
-      width: '200px',
-      color: '$text',
-      border: '1px solid #ccc',
-      background: '$background',
-      borderRadius: 8,
-      cursor: 'pointer',
-    }
   }
 })

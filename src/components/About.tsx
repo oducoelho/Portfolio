@@ -24,8 +24,6 @@ export const Services = () => {
           <span>
             Studying Systems Analysis and Development. I'm looking for my first opportunity as a developer. I consider myself a dedicated person who seeks to evolve and learn more every day. I keep studying and with focus and determination to achieve my goals!!
           </span> 
-
-          <button>Download my CV</button>
         </div>
       </Text>
     </AboutContainer>

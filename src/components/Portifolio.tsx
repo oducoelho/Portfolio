@@ -21,7 +21,8 @@ export const Portifolio = () => {
 
               <Tags>
                 <span>{portifolio.lenguage}</span>
-                <Share size={20} />
+                <span>{portifolio.lenguage2}</span>
+                <a href={portifolio.code} target={"_blank"}><Share size={20} color='#656D72' /></a>
               </Tags>
             </Options>
             <img src={portifolio.image} alt="" />
