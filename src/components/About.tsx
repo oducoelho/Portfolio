@@ -1,4 +1,4 @@
-import { AboutContainer, Content, Text } from "../styles/pages/About"
+import { AboutContainer, Content, Image, Text } from "../styles/pages/About"
 import Me from "../assets/Eduardo.jpeg"
 export const Services = () => {
   return (
@@ -9,7 +9,9 @@ export const Services = () => {
         <h2>About me</h2>
       </Content>
       <Text>
-        <img src={Me} alt="" />
+        <Image>
+          <img src={Me} alt="" />
+        </Image>
         <div>
           <h1>Eduardo Coelho</h1>
           <p>

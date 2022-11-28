@@ -13,19 +13,20 @@ export const Portifolio = () => {
       <Content>
         {PortifolioData.map((portifolio) => (
           <div>
-            <Options>
-              <Title>
-                <h3>{portifolio.title}</h3>
-                <p>{portifolio.resume}</p>
-              </Title>
+              <Options>
+                <Title>
+                  <h3>{portifolio.title}</h3>
+                  <p>{portifolio.resume}</p>
+                </Title>
 
-              <Tags>
-                <span>{portifolio.lenguage}</span>
-                <span>{portifolio.lenguage2}</span>
-                <a href={portifolio.code} target={"_blank"}><Share size={20} color='#656D72' /></a>
-              </Tags>
-            </Options>
-            <img src={portifolio.image} alt="" />
+                <Tags>
+                  <span>{portifolio.lenguage}</span>
+                  <span>{portifolio.lenguage2}</span>
+                </Tags>
+              </Options>
+            <a href={portifolio.code} target={"_blank"}>
+              <img src={portifolio.image} alt="" />
+            </a>
           </div>
         ))}
       </Content>

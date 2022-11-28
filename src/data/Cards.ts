@@ -49,7 +49,7 @@ export const HeaderData = [
   },
   {
     name: 'Contact',
-    link: "contact",
+    link: "Footer",
   },
 ]
 export const PortifolioData = [
@@ -152,20 +152,27 @@ export const AcademicaData  = [
   },
   {
     id: 2,
+    title: 'RocketSeat Ignite',
+    resume: 'Adoption program for developers focused on ReactJs ReactNative and NodeJs.',
+    time: '5 months',
+    date: 'July/2022 · Atualmente'
+  },
+  {
+    id: 3,
     title: 'Maintenance Technician IT Support',
     resume: 'Computer maintenance technician course at ETEC Dr. Francisco Nogueira de Lima.',
     time: '1 year and 6 months',
     date: 'February/2019 · June/2020'
   },
   {
-    id: 3,
+    id: 4,
     title: 'English · Intermediate conversationa',
     resume: 'I am able to improve my level of English (Today: Intermediate) with Mars Idiomas school.',
     time: '1 year',
     date: 'January/2022 · Atualmente'
   },
   {
-    id: 4,
+    id: 5,
     title: 'Complete high school',
     resume: 'At the end of 2020 I graduated from high school at Lauro de Araújo school.',
     date: 'December/2020'

@@ -55,21 +55,26 @@ export const Content = styled('section', {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    justifyContent: 'center', 
+    justifyContent: 'space-between', 
 
     '&:hover': {
       transform: 'scale(1.05)',
       transitionDuration: '300ms',
       backgroundColor: 'gray',
       color: '$black',
-      cursor: 'pointer',
+
 
       h3: {
         fontWeight: 'bold',
         color: '$black',
       },
+
       p: {
         color: '$black',
+        fontSize: '$ss',
+        display: '-webkit-box',
+        '-webkit-box-orient': 'vertical',
+        '-webkit-line-clamp': 5,
       },
       span: {
         fontWeight: 'bold',
@@ -104,10 +109,16 @@ export const Title = styled('section', {
   p: {
     fontSize: '$sm',
     color: '$white100',
-    paddingBottom: '20px',
+    flex: 1,
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    display: '-webkit-box',
+    '-webkit-box-orient': 'vertical',
+    '-webkit-line-clamp': 3,
   },
 })
 export const Tags = styled('section', {
+  paddingTop: '20px',
   display: 'flex',
   gap: '10px',
   span: {

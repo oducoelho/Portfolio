@@ -10,7 +10,7 @@ export const Skills = () => {
         <h2>Technologies and skills</h2>
       </Header>
       <Content>
-        <span>Techs que uso no dia a dia</span>
+        <span>Technologies I use in my day to day</span>
         <Box >
         {skills.map((skill) => (
             <div key={skill.id}>
