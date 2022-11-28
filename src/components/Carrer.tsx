@@ -11,7 +11,7 @@ export const Career = () => {
       </Header>
       <Content>
         <Proficional>
-          <h2>Proficional</h2>
+          <h2>Professional</h2>
             {ProfissionalData.map((profissional) => (
                 <div>
                   <Options>
@@ -30,7 +30,7 @@ export const Career = () => {
 
         
         <Academica>
-          <h2>Acadêmica</h2>
+          <h2>Academic</h2>
             {AcademicaData.map((academica) => (
               <div>
                 <Options>

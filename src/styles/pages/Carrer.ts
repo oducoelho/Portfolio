@@ -55,6 +55,11 @@ export const Proficional = styled('section', {
   gap: '64px',
   fontSize: '1.6rem',
   div: {  
+    width: '100%',
+    height: '170px',
+    display: 'flex',
+    justifyContent: 'center',
+    flexDirection: 'column',
     boxShadow: '0 5px 10px gray',
     borderRadius: 15,
     '&:hover': {
@@ -83,6 +88,11 @@ export const Academica = styled('div', {
   gap: '64px',
   fontSize: '1.6rem',
   div: {  
+    width: '100%',
+    height: '170px',
+    display: 'flex',
+    justifyContent: 'center',
+    flexDirection: 'column',
     boxShadow: '0 5px 10px gray',
     borderRadius: 15,
     '&:hover': {

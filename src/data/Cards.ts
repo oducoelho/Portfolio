@@ -130,75 +130,45 @@ export const PortifolioData = [
 export const ProfissionalData  = [
   {
     id: 1,
-    title: 'To-do-List',
-    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.',
-    time: '1 ano e 7 meses',
-    date: 'Abril/2021 · Atualmente'
+    title: 'Freelancer',
+    resume: 'Development websites and aplications for IOS and android.',
+    time: '5 months',
+    date: 'July/2022 · Atualmente'
   },
   {
     id: 2,
-    title: 'To-do-List',
-    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.',
-    time: '1 ano e 7 meses',
-    date: 'Abril/2021 · Atualmente'
-  },
-  {
-    id: 3,
-    title: 'To-do-List',
-    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.',
-    time: '1 ano e 7 meses',
-    date: 'Abril/2021 · Atualmente'
-  },
-  {
-    id: 4,
-    title: 'To-do-List',
-    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.',
-    time: '1 ano e 7 meses',
-    date: 'Abril/2021 · Atualmente'
-  },
-  {
-    id: 5,
-    title: 'To-do-List',
-    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.',
-    time: '1 ano e 7 meses',
-    date: 'Abril/2021 · Atualmente'
+    title: 'Intern',
+    resume: 'Direct service with the public, organization and classification of files, binders, books, Assist in the development and preparation of administrative files; Assist in forwarding processes and other documents to specific units or protocol.',
+    time: '1 year e 7 months',
+    date: 'January/2019 · Julho/2020'
   },
 ]
 export const AcademicaData  = [
   {
     id: 1,
-    title: 'To-do-List',
-    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios. ',
-    time: '1 ano e 7 meses',
-    date: 'Abril/2021 · Atualmente'
+    title: 'Superior, Systems Analysis and Development',
+    resume: 'Graduating from UNIFEOB in the Systems Analysis and Development course. ',
+    date: 'January/2022 · Atualmente'
   },
   {
     id: 2,
-    title: 'To-do-List',
-    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.',
-    time: '1 ano e 7 meses',
-    date: 'Abril/2021 · Atualmente'
+    title: 'Maintenance Technician IT Support',
+    resume: 'Computer maintenance technician course at ETEC Dr. Francisco Nogueira de Lima.',
+    time: '1 year and 6 months',
+    date: 'February/2019 · June/2020'
   },
   {
     id: 3,
-    title: 'To-do-List',
-    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.',
-    time: '1 ano e 7 meses',
-    date: 'Abril/2021 · Atualmente'
+    title: 'English · Intermediate conversationa',
+    resume: 'I am able to improve my level of English (Today: Intermediate) with Mars Idiomas school.',
+    time: '1 year',
+    date: 'January/2022 · Atualmente'
   },
   {
     id: 4,
-    title: 'To-do-List',
-    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.',
-    time: '1 ano e 7 meses',
-    date: 'Abril/2021 · Atualmente'
-  },
-  {
-    id: 5,
-    title: 'To-do-List',
-    resume: 'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.',
-    time: '1 ano e 7 meses',
-    date: 'Abril/2021 · Atualmente'
+    title: 'Complete high school',
+    resume: 'At the end of 2020 I graduated from high school at Lauro de Araújo school.',
+    date: 'December/2020'
   },
 ]
 export const skills = [
