@@ -12,9 +12,6 @@ export const Contact = () => {
         <h2>Let's Talk!</h2>
       </Header>
       <Content>
-        <div>
-          <button><WhatsappLogo size={30} />Let's Talk!</button>
-        </div>
         <Email>
           <PaperPlaneTilt size={20} color={'gray'}/>
           <span>E-mail:</span>

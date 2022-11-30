@@ -28,7 +28,6 @@ export const Home = () => {
           <span>
             <a href="../../archive/Curriculum-Eduardo.pdf" download>Download CV <ArrowDown /></a>  
           </span>
-          <button><WhatsappLogo size={30} /> Lets talk</button>
         </Download>
       </Content>
     </HomeContainer>

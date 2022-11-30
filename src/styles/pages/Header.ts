@@ -6,17 +6,17 @@ export const HeaderContainer = styled('div', {
   color: '$white100',
   fontFamily: 'Roboto',
   fontWeight: 400,
-  backgroundColor: '#141418',
+  backgroundColor: '#00000080',
 
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
-  width: '90%',
+  width: '89%',
   maxWidth: '1350px',
 
   position: "fixed",
   top: '10px',
-  left: '15%',
+  left: '283px',
   
   span: {
     fontSize: '$md',

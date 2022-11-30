@@ -95,32 +95,20 @@ export const Download = styled('div', {
     display: 'flex',
     alignItems: 'center', 
     justifyContent: 'end',
+    
 
     fontFamily: 'Inter',
     fontweight: 500,
-    fontSize: '$sm',
+    fontSize: '$md',
+
+    padding: '15px',
+    border: '1px solid $gray100',
+    borderRadius: 8,
     a: {
       textDecoration: 'none',
       color: '$gray100',
     },
 
     cursor: 'pointer',
-  },
-  button: {
-    marginTop: '15px',
-    fontSize: '$md',
-    height: '45px',
-    width: '200px',
-    color: '$text', 
-    cursor: 'pointer',
-    
-    border: '1px solid #ccc',
-    background: '$background',
-    borderRadius: 8,
-    
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    gap: '10px',
   },
 })

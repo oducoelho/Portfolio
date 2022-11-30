@@ -39,48 +39,16 @@ export const Header =styled('div', {
   },
 })
 export const Content =styled('div', {
-  display: 'grid',
-  gridTemplateColumns: 'repeat(2, 2fr)',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  
   margin: '170px 450px 0 450px',
 
   '@media (max-width: 1024px)': {
     display: 'flex',
     flexDirection: 'column',
   },
-  div: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-
-    '@media (max-width: 1024px)': {
-      paddingBottom: '30px',
-    },
-    button: {
-      marginTop: '15px',
-      fontSize: '$md',
-      height: '45px',
-      width: '200px',
-      color: '$text', 
-      cursor: 'pointer',
-      
-      border: '1px solid #ccc',
-      background: '$background',
-      borderRadius: 8,
-      
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      gap: '10px',
-    
-      '@media (max-width: 1024px)': {
-        height: '45px',
-        width: '150px',
-      },
-      '@media (max-width: 425px)': {
-        marginTop: '-20px',
-      },
-    },
-  }
 })
 export const Email = styled('div', {
   fontSize: '1.6rem',
