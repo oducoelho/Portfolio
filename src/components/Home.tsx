@@ -1,13 +1,19 @@
 import { ArrowDown, GithubLogo, InstagramLogo, LinkedinLogo, TwitterLogo, WhatsappLogo } from "phosphor-react"
 import { Content, Download, HomeContainer, Name, Picture } from "../styles/pages/Home"
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from "react"
 
 import HeroImage from '../assets/svgs/AvatarAndIcons.svg'
 
 export const Home = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 })
+  }, [])
   return (
     <HomeContainer name="home">
       <Content>
-        <Name>
+        <Name data-aos="zoom-in">
         <h1>Eduardo Coelho</h1>
           <p>Front-end developer</p>
           <ul>
@@ -20,12 +26,12 @@ export const Home = () => {
         
 
         <Picture>
-          <img src={HeroImage} alt="" />
+          <img src={HeroImage} alt="" data-aos="zoom-in" />
         </Picture>
         
 
         <Download>
-          <span>
+          <span data-aos="zoom-in">
             <a href="../../archive/Curriculum-Eduardo.pdf" download>Download CV <ArrowDown /></a>  
           </span>
         </Download>

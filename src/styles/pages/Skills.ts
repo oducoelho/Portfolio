@@ -9,7 +9,7 @@ export const SkillsContainer = styled('section',{
   maxWidth: '1350px',
 })
 export const Header = styled('div', {
-  marginTop: '114px',
+  marginTop: '200px',
   span: {
       paddingTop: '115px',
       paddingRight: '65px',

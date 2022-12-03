@@ -1,3 +1,4 @@
+import { render } from "react-dom";
 import { styled } from "..";
 
 export const HomeContainer = styled('section', {
@@ -104,11 +105,21 @@ export const Download = styled('div', {
     padding: '15px',
     border: '1px solid $gray100',
     borderRadius: 8,
+
     a: {
       textDecoration: 'none',
       color: '$gray100',
     },
 
     cursor: 'pointer',
+    
+    '&:hover': {
+      backgroundColor: '$gray100',
+      transitionDuration: '10ms',
+      a: {
+        color: '$white',
+        transitionDuration: '10ms',
+      },
+    },
   },
 })

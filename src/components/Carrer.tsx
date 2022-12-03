@@ -1,19 +1,24 @@
 import { AcademicaData, ProfissionalData } from "../data/Cards"
 import { Academica, CarrerContainer, Content, Header, Options, Proficional, Tags, Title } from "../styles/pages/Carrer"
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from "react"
 export const Career = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 })
+  }, [])
   return (
     <CarrerContainer name="carrer">
-      <Header>
+      <Header data-aos='fade-up'>
         <span>— CARRER</span>
 
         <h2>Trajectory so Far</h2>
       </Header>
       <Content>
-        <Proficional>
+        <Proficional data-aos='fade-up'>
           <h2>Professional</h2>
             {ProfissionalData.map((profissional) => (
-                <div>
+                <div data-aos='fade-up' >
                   <Options>
                     <Title>
                       <h3>{profissional.title}</h3>
@@ -29,10 +34,10 @@ export const Career = () => {
         </Proficional>
 
         
-        <Academica>
+        <Academica data-aos='fade-up'>
           <h2>Academic</h2>
             {AcademicaData.map((academica) => (
-              <div>
+              <div data-aos='fade-up' >
                 <Options>
                   <Title>
                     <h3>{academica.title}</h3>

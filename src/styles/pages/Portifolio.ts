@@ -51,6 +51,7 @@ export const Content = styled('section', {
     height: '440',
     boxShadow: '0 5px 10px gray',
     borderRadius: 15,
+    overflow: 'hidden',
 
     display: 'flex',
     flexDirection: 'column',
