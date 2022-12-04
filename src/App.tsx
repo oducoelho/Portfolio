@@ -1,3 +1,5 @@
+import React, { useEffect } from "react"
+
 import { Career } from "./components/Carrer"
 import { Contact } from "./components/Contact"
 import { Footer } from "./components/Footer"
@@ -11,6 +13,9 @@ import { globalStyles } from "./styles/global"
 globalStyles()
 
 export const App = () => {
+  useEffect(() => {
+    alert("Portifolio ainda em desenvolvimento... possa ser que ainda encontre alguns erros")
+  })
   return (
     <div>
       <Header />
