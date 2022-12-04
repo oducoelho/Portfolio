@@ -23,6 +23,9 @@ export const Content = styled('div', {
     '@media (max-width: 768px)': {
       paddingTop: '8px',
     },
+    '@media (max-width: 425px)': {
+      paddingTop: '228px',
+    },
   },
 
   h2: {

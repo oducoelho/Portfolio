@@ -37,8 +37,7 @@ export const Picture = styled('div', {
   },
   '@media (max-width: 425px)': {
     img: {
-      width: '400px',
-      marginLeft: '5px',
+      width: '0px',
     },
   },
 })

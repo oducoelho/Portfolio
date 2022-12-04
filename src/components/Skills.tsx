@@ -9,7 +9,7 @@ export const Skills = () => {
     Aos.init({ duration: 1500 })
   }, [])
   return (
-    <SkillsContainer name="skills">
+    <SkillsContainer>
       <Header data-aos='fade-up'>
         <span>— SKILLS</span>
 

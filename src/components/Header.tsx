@@ -1,12 +1,12 @@
-import { HeaderContainer, Options } from "../styles/pages/Header"
-import { HeaderData } from "../data/Cards"
-import { Link } from "react-scroll";
+//import { HeaderContainer, Options } from "../styles/pages/Header"
+//import { HeaderData } from "../data/Cards"
+//import { Link } from "react-scroll";
 //import logo from '../assets/logo.png'
 
 export const Header = () => {
   return (
-    <HeaderContainer>
-      <span>{/*<img src={logo} alt="" />*/}</span>
+    /*<HeaderContainer>
+      <span>{<img src={logo} alt="" />}</span>
 
       <Options>
         {HeaderData.map((option) => (
@@ -17,6 +17,7 @@ export const Header = () => {
           </Link>
         ))}
       </Options>
-    </HeaderContainer>
+    </HeaderContainer>*/
+    <div></div>
   )
 }

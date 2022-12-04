@@ -5,7 +5,7 @@ import { BackToTheTop } from "../data/Cards";
 
 export const Contact = () => {
   return (
-    <ContactContainer name="contact">
+    <ContactContainer>
       <Header>
         <span>— CONTACT</span>
 

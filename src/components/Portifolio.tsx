@@ -1,4 +1,3 @@
-import { Share } from "phosphor-react"
 import { PortifolioData } from "../data/Cards"
 import { Content, Header, Options, PortifolioContainer, Tags, Title } from "../styles/pages/Portifolio"
 import Aos from 'aos'
@@ -10,7 +9,7 @@ export const Portifolio = () => {
     Aos.init({ duration: 1500 })
   }, [])
   return (
-    <PortifolioContainer name="portfolio" >
+    <PortifolioContainer>
       <Header data-aos='fade-up'>
         <span>— PORTIFOLIO</span>
 
