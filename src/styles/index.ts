@@ -15,6 +15,7 @@ export const {
       //background: '#090E16',
       background: '#121216',
       //background: '#1e1e1e',
+      inputBackground: '#0c0b0e',
 
       text: '#7b7b7b',
       white: '#fff',

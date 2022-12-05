@@ -1,31 +1,36 @@
-import { ArrowUp, Cards, PaperPlaneTilt, WhatsappLogo } from "phosphor-react"
-import { ContactContainer, Content, Email, Footer, Header } from "../styles/pages/Contact"
-import { Link } from "react-scroll";
-import { BackToTheTop } from "../data/Cards";
+import { Assunto, ContactContainer, Content, Email, Header, Menssagem, } from "../styles/pages/Contact"
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from "react"
 
 export const Contact = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 })
+  }, [])
   return (
     <ContactContainer>
-      <Header>
+      <Header data-aos='fade-up'>
         <span>— CONTACT</span>
 
         <h2>Let's Talk!</h2>
       </Header>
       <Content>
-        <Email>
-          <PaperPlaneTilt size={20} color={'gray'}/>
-          <span>E-mail:</span>
-          <p>EduardoCoelho619@gmail.com</p>
-          <Cards size={20} color={'gray'} />
-        </Email>
+        <form>
+          <div>
+            <Email data-aos='fade-up'>
+              <input type="text" placeholder="Email" />
+            </Email>
+            <Assunto data-aos='fade-up'>
+              <input type="text" placeholder="Subject" />
+            </Assunto>
+            <Menssagem data-aos='fade-up'>
+              <input type="text" placeholder="Message " />
+            </Menssagem>
+            <button data-aos='fade-up'>Enviar</button>
+          </div>
+        </form>
       </Content>
-      <Footer>
-        {BackToTheTop.map((option) => (
-          <Link to={option.link} smooth duration={700}>
-            <h1>Back to the Top <ArrowUp  /></h1>
-          </Link>
-        ))}
-      </Footer>
+
     </ContactContainer>
   )
 }

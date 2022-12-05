@@ -1,13 +1,12 @@
 import { styled } from "..";
 
 export const ContactContainer =styled('section', {
+  display: 'flex',
+  justifyContent: 'space-between',
+  flexDirection: 'column',
   margin: '0 auto',
   width: '90%',
   maxWidth: '1350px',
-
-  display: 'flex',
-  alignItems: 'center',
-  flexDirection: 'column',
 })
 export const Header =styled('div', {
   marginTop: '114px',
@@ -39,45 +38,62 @@ export const Header =styled('div', {
   },
 })
 export const Content =styled('div', {
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  
-  margin: '170px 450px 0 450px',
-
-  '@media (max-width: 1024px)': {
+  margin: '200px 0px',
+  '@media (max-width: 425px)': {
     display: 'flex',
     flexDirection: 'column',
   },
-})
-export const Email = styled('div', {
-  fontSize: '1.6rem',
-  lineHeight: 1.6,
+  form: {
+    div: {
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+  
+      input: {
+        width: '350%',
+        marginBottom: '20px',
+        backgroundColor: '$inputBackground',
+        border: '1px solid $background',
+        borderRadius: 8,
+        color: '$white',
 
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
+        '@media (max-width: 425px)': {
+          width: '220%',
+        },
+      },
 
-  span: { 
-    color: '$purple',
-    lineHeight: 1.6,
+      button: {
+        width: '50%',
+        height: '45px',
+        border: '1px solid $gray100',
+        borderRadius: 8,
+        cursor: 'pointer',
+        backgroundColor: 'transparent',
+        color: '$white',
+
+        '&:hover': {
+          backgroundColor: '$gray100',
+        }
+      }
+    }
   }
 })
-export const Footer = styled('div', {
-  paddingTop: '100px',
-  color: '$purple100',
-  fontSize: '$sm',
-  paddingBottom: '300px',
-
-  display: 'flex',
-  flexDirection: 'column',
-  justifyContent: 'center',
-  alignItems: 'center',
-  
-  '@media (max-width: 1024px)': {
-    paddingBottom: '100px',
-  },
-  h1: {
-    cursor: 'pointer',
+export const Email = styled('div', {
+  input: {
+    height: '45px',
+    padding: '10px',
+  }
+})
+export const Assunto = styled('div', {
+  input: {
+    height: '45px',
+    padding: '10px',
+  }
+})
+export const Menssagem = styled('div', {
+  input: {
+    height: '145px',
+    padding: '0px 10px 110px 10px',
   }
 })
