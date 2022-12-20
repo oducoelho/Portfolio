@@ -9,16 +9,16 @@ export const Services = () => {
   }, [])
   return (
     <AboutContainer>
-      <Content /*data-aos='fade-down'*/ >
+      <Content data-aos='fade-up' >
         <span>— ABOUT</span>
 
         <h2>About me</h2>
       </Content>
       <Text>
         <Image>
-          <img src={Me} alt="" /*data-aos='fade-right'*//>
+          <img src={Me} alt="" data-aos='fade-up'/>
         </Image>
-        <div /*data-aos='fade-left'*/>
+        <div data-aos='fade-up'>
           <h1>Eduardo Coelho</h1>
             <P>
               👋 My name is Eduardo Coelho, but you can just call me Eduardo. Pleasure!

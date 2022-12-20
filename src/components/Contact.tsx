@@ -15,18 +15,26 @@ export const Contact = () => {
         <h2>Let's Talk!</h2>
       </Header>
       <Content>
-        <form>
+        <form
+          action="https://formsubmit.co/eduardocoelho619@gmail.com"
+          method="POST"
+        >
           <div>
             <Email data-aos='fade-up'>
-              <input type="text" placeholder="Email" />
+              <input type="text" name="email" placeholder="Email" />
             </Email>
             <Assunto data-aos='fade-up'>
-              <input type="text" placeholder="Subject" />
+              <input type="text" name="assunto" placeholder="Subject" />
             </Assunto>
             <Menssagem data-aos='fade-up'>
-              <input type="text" placeholder="Message " />
+              <input type="text" name="menssagem" placeholder="Message " />
             </Menssagem>
-            <button data-aos='fade-up'>Enviar</button>
+            <button 
+              data-aos='fade-up'
+              type="submit" 
+            >
+              Enviar
+            </button>
           </div>
         </form>
       </Content>

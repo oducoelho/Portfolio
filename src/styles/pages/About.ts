@@ -8,7 +8,7 @@ export const AboutContainer = styled('section', {
   width: '90%',
   maxWidth: '1350px',
   '@media (max-width: 425px)': {
-    width: '90%',
+    width: '80%',
   },
 })
 export const Content = styled('div', {

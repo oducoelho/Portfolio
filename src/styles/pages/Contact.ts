@@ -5,7 +5,7 @@ export const ContactContainer =styled('section', {
   justifyContent: 'space-between',
   flexDirection: 'column',
   margin: '0 auto',
-  width: '90%',
+  width: '80%',
   maxWidth: '1350px',
 })
 export const Header =styled('div', {
@@ -52,7 +52,7 @@ export const Content =styled('div', {
       alignItems: 'center',
   
       input: {
-        width: '350%',
+        width: '320%',
         marginBottom: '20px',
         backgroundColor: '$inputBackground',
         border: '1px solid $background',
@@ -60,12 +60,12 @@ export const Content =styled('div', {
         color: '$white',
 
         '@media (max-width: 425px)': {
-          width: '220%',
+          width: '200%',
         },
       },
 
       button: {
-        width: '50%',
+        width: '200px',
         height: '45px',
         border: '1px solid $gray100',
         borderRadius: 8,
