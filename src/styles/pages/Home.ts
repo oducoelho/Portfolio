@@ -37,7 +37,9 @@ export const Picture = styled('div', {
   },
   '@media (max-width: 425px)': {
     img: {
-      width: '0px',
+      marginTop: '120px',
+      marginLeft: '30px',
+      width: '350px',
     },
   },
 })
@@ -81,7 +83,7 @@ export const Download = styled('div', {
   },
   '@media (max-width: 425px)': {
     position: 'absolute',
-    top: '650px',
+    top: '640px',
 
     display: 'flex',
     flexDirection: 'row',
