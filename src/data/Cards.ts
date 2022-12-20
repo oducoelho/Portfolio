@@ -19,6 +19,7 @@ import react from '../assets/react.png'
 import typescript from '../assets/typescript.png'  
 import stitches from '../assets/stitches.png'  
 import stylesComponents from '../assets/styles-components.png'  
+import nest from '../assets/svgs/nest.svg'  
 
 export const BackToTheTop = [
   {
@@ -190,47 +191,53 @@ export const skills = [
     image: css,
   },
   {
-    id: 1,
+    id: 3,
     title: 'JavaScript',
     image: javascript
   },
   {
-    id: 1,
+    id: 4,
     title: 'TypeScript',
     image: typescript
   },
-  {id: 1,
+  {
+    id: 5,
     title: 'React',
     image: react
   },
   {
-    id: 1,
+    id: 6,
     title: 'NextJs',
     image: nextjs
   },
   {
-    id: 1,
+    id: 7,
     title: 'Node',
     image: node
   },
   {
-    id: 1,
+    id: 8,
     title: 'Tailwind',
     image: tailwind
   },
   {
-    id: 1,
+    id: 9,
     title: 'Styles Components',
     image: stylesComponents
   },
   {
-    id: 1,
+    id: 10,
     title: 'Stitches',
     image: stitches
   },
   {
-    id: 1,
+    id: 11,
     title: 'Github',
     image: github
+  },
+  {
+    id: 12,
+    title: 'NestJs',
+    image: nest
   },
 ]

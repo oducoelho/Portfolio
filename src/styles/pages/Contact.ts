@@ -42,6 +42,7 @@ export const Content =styled('div', {
   '@media (max-width: 425px)': {
     display: 'flex',
     flexDirection: 'column',
+    margin: '130px 0px',
   },
   form: {
     div: {

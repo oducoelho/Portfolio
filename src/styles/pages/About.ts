@@ -7,14 +7,16 @@ export const AboutContainer = styled('section', {
   margin: '0 auto',
   width: '90%',
   maxWidth: '1350px',
-  
+  '@media (max-width: 425px)': {
+    width: '90%',
+  },
 })
 export const Content = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
   span: {
-    paddingRight: '45px',
+    //paddingRight: '45px',
     fontFamily: 'Inter',
     fontweight: 500,
     fontSize: '$ss',
@@ -47,11 +49,11 @@ export const Text = styled('div', {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
+    fontSize: '$ss'
   },
 
   img: { 
     width: '300px',
-    marginLeft: '150px',
     borderRadius: 8,
   },
   div: {
@@ -60,30 +62,28 @@ export const Text = styled('div', {
     h1: {
       fontSize: '$3xl',
     },
-    
-    p: {
-      fontFamily: 'Inter',
-      fontweight: 400,
-      lineHeight: '4.2rem',
-      color: '$text',
-      fontSize: '1.6rem',
-    },
-
-    span: {
-      paddingTop: '25px',
-      fontFamily: 'Inter',
-      fontweight: 400,
-      lineHeight: '2.2rem',
-      color: '$text',
-      fontSize: '1.6rem'
-    },
   }
+})
+export const Span = styled('span', {
+  paddingTop: '25px',
+  fontFamily: 'Inter',
+  fontweight: 400,
+  lineHeight: '2.2rem',
+  color: '$text',
+  fontSize: '1.6rem'
+})
+export const P = styled('p', {
+  fontFamily: 'Inter',
+  fontweight: 400,
+  lineHeight: '4.2rem',
+  color: '$text',
+  fontSize: '1.6rem', 
 })
 export const Image = styled('div', {
   '@media (max-width: 768px)': {
     img: {
       width: '125px',
-      marginRight: '150px',
+      //paddingRight: '150px',
       marginBottom: '15px',
     }
   },
