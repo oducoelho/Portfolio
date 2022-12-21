@@ -27,7 +27,7 @@ export const BackToTheTop = [
     link: "home", 
   }
 ]
-/*export const HeaderData = [
+export const HeaderData = [
   {
     name: 'Home',
     link: "home",
@@ -52,7 +52,7 @@ export const BackToTheTop = [
     name: 'Contact',
     link: "Footer",
   },
-]*/
+]
 export const PortifolioData = [
   {
     id: 1,

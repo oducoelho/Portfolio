@@ -10,12 +10,12 @@ export const Skills = () => {
   }, [])
   return (
     <SkillsContainer>
-      <Header data-aos='fade-up'>
-        <span>— SKILLS</span>
+      <Header data-aos='fade-up' >
+        <span name="skills">— SKILLS</span>
 
         <h2>Technologies and skills</h2>
       </Header>
-      <Content data-aos='fade-up' >
+      <Content data-aos='fade-up'>
         <span>Technologies I use in my day to day</span>
         <Box >
         {skills.map((skill) => (

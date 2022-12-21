@@ -13,9 +13,9 @@ import { globalStyles } from "./styles/global"
 globalStyles()
 
 export const App = () => {
-  useEffect(() => {
-    alert("Portifolio ainda em desenvolvimento... possa ser que ainda encontre alguns erros")
-  }, [])
+  //useEffect(() => {
+  //  alert("Portifolio ainda em desenvolvimento... possa ser que ainda encontre alguns erros")
+  //}, [])
   return (
     <div>
       <Header />

@@ -8,7 +8,7 @@ export const Career = () => {
     Aos.init({ duration: 1500 })
   }, [])
   return (
-    <CarrerContainer>
+    <CarrerContainer name="carrer">
       <Header data-aos='fade-up'>
         <span>— CARRER</span>
 

@@ -11,7 +11,7 @@ export const Home = () => {
     Aos.init({ duration: 1500 })
   }, [])
   return (
-    <HomeContainer>
+    <HomeContainer name="home">
       <Content>
         <Name data-aos="zoom-in">
         <h1>Eduardo Coelho</h1>

@@ -19,7 +19,7 @@ export const Contact = () => {
           action="https://formsubmit.co/eduardocoelho619@gmail.com"
           method="POST"
         >
-          <div>
+          <div name="Footer">
             <Email data-aos='fade-up'>
               <input type="text" name="email" placeholder="Email" />
             </Email>

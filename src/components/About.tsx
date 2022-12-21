@@ -8,7 +8,7 @@ export const Services = () => {
     Aos.init({ duration: 1500 })
   }, [])
   return (
-    <AboutContainer>
+    <AboutContainer name="about">
       <Content data-aos='fade-up' >
         <span>— ABOUT</span>
 
