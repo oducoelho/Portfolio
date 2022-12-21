@@ -3,12 +3,13 @@ import Me from "../assets/Eduardo.jpeg"
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from "react"
+
 export const Services = () => {
   useEffect(() => {
     Aos.init({ duration: 1500 })
   }, [])
   return (
-    <AboutContainer name="about">
+    <AboutContainer id="about">
       <Content data-aos='fade-up' >
         <span>— ABOUT</span>
 

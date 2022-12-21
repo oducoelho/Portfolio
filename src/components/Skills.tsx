@@ -11,7 +11,7 @@ export const Skills = () => {
   return (
     <SkillsContainer>
       <Header data-aos='fade-up' >
-        <span name="skills">— SKILLS</span>
+        <span id="skills">— SKILLS</span>
 
         <h2>Technologies and skills</h2>
       </Header>

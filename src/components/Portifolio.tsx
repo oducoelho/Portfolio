@@ -9,7 +9,7 @@ export const Portifolio = () => {
     Aos.init({ duration: 1500 })
   }, [])
   return (
-    <PortifolioContainer name="portfolio">
+    <PortifolioContainer id="portfolio">
       <Header data-aos='fade-up'>
         <span>— PORTIFOLIO</span>
 
