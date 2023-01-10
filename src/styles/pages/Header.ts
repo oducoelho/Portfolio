@@ -1,8 +1,7 @@
 import { styled } from "..";
 
 export const HeaderContainer = styled('div', {
-  padding: '20px 23px',
-  borderRadius: '20px',
+  padding: '20px 275px',
   color: '$white100',
   fontFamily: 'Roboto',
   fontWeight: 400,
@@ -11,13 +10,11 @@ export const HeaderContainer = styled('div', {
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
-  width: '89%',
-  maxWidth: '1350px',
+  width: '100%',
   boxSizing: 'border-box',
 
   position: "fixed",
-  top: '10px',
-  left: '283px',
+  top: '0px',
   zIndex: 1000,  
 
   '@media (max-width: 1440px)': {
