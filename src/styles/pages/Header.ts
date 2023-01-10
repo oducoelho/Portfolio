@@ -15,22 +15,12 @@ export const HeaderContainer = styled('div', {
 
   position: "fixed",
   top: '0px',
-  zIndex: 1000,  
-
+  zIndex: 1000,
   '@media (max-width: 1440px)': {
-    left: '60px',
-  },
+    padding: '20px 20px',
+  },  
 
-  '@media (max-width: 1024px)': {
-    left: '60px',
-  },
-
-  '@media (max-width: 425px)': {
-    justifyContent: 'flex-start',
-    left: '23px',
-  },
-
-  img: {
+  img: {  
     width: '40px',
     borderRadius: '50%',
   },
@@ -45,7 +35,9 @@ export const Options = styled('div', {
   color: '$white',
   span: {
     cursor: 'pointer',
+    position: 'relative',
     '&:hover': {
+      top: '-2px',
       color: '$white100',
       transitionDuration: '100ms',
     },

@@ -48,16 +48,31 @@ export const Name = styled('div', {
     fontSize: '4.5rem',
     fontWeight: 700,
     color: '$white',
+    position: 'relative',
+    '&:hover': {
+      top: '-5px',
+    }
   },
   p: {
     fontSize: '$md',
     lineHeight: 2.6,
+    position: 'relative',
+    '&:hover': {
+      top: '-5px',
+    }
   },
   ul: {
     listStyle: 'none',
     textDecoration: 'none',
     display: 'flex',
     gap: '10px',
+    li: {
+      position: 'relative',
+      cursor: 'pointer',
+      '&:hover': {
+        top: '-5px',
+      }
+    }
   },
   '@media (max-width: 768px)': {
     position: 'absolute',
@@ -69,6 +84,10 @@ export const Name = styled('div', {
   },
 })
 export const Download = styled('div', {
+  position: 'relative',
+  '&:hover': {  
+    top: '-5px',
+  },
   '@media (max-width: 768px)': {
     position: 'absolute',
     top: '750px',

@@ -28,7 +28,7 @@ export const Header = styled('div', {
 export const Content = styled('section', {
   display: 'grid',
   gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-  gridGap: '20px',
+  gridGap: '50px',
 
   marginTop: '114px',
   fontSize: '1.6rem',
@@ -47,16 +47,11 @@ export const Content = styled('section', {
     alignItems: 'center',
   },
   div: { 
-    width: '300px',
+    width: '305px',
     height: '440',
     boxShadow: '0 5px 10px gray',
     borderRadius: 15,
     overflow: 'hidden',
-
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'space-between', 
 
     '&:hover': {
       transform: 'scale(1.05)',
