@@ -2,7 +2,6 @@ import { styled } from "..";
 
 export const HomeContainer = styled('section', {
   height: '100vh',
-  backgroundColor: 'green',
   padding: '100px 275px',
 
   '@media (max-width: 768px)': {

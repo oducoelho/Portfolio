@@ -2,7 +2,6 @@ import { styled } from "..";
 
 export const PortifolioContainer = styled('section', {
   padding: '0px 275px',
-  backgroundColor: 'green',
   '@media (max-width: 688px)': {
     padding: '0px 30px',
   },
