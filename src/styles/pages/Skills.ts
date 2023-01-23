@@ -1,15 +1,11 @@
 import { styled } from "..";
 
 export const SkillsContainer = styled('section',{
-  display: 'flex',
-  flexDirection: 'column',
-  justifyContent: 'space-between',
-  margin: '0 auto',
-  width: '90%',
-  maxWidth: '1350px',
+  padding: '0px 275px',
+  backgroundColor: 'red',
 })
 export const Header = styled('div', {
-  marginTop: '200px',
+  paddingTop: '200px',  
   span: {
       paddingTop: '115px',
       paddingRight: '65px',
@@ -31,7 +27,7 @@ export const Header = styled('div', {
 })
 export const Content = styled('div', {
   display: 'flex',
-  margin: '150px 0',
+  padding: '150px 0',
   justifyContent: 'center',
   alignItems: 'center',
   flexDirection: 'column',
@@ -51,6 +47,10 @@ export const Box = styled('div', {
   gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
   gridGap: '80px',
   width: '80%',
+
+  '&:last-child': {
+    paddingBottom: '50px',
+  },
   
   '@media (max-width: 688px)': {
     display: 'flex',

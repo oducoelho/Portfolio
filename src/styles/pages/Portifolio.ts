@@ -1,15 +1,11 @@
 import { styled } from "..";
 
 export const PortifolioContainer = styled('section', {
-  display: 'flex',
-  justifyContent: 'space-between',
-  flexDirection: 'column',
-  margin: '0 auto',
-  width: '90%',
-  maxWidth: '1350px',
+  padding: '0px 275px',
+  backgroundColor: 'green',
 })
 export const Header = styled('div', {
-  paddingTop: '240px',
+  paddingTop: '100px',
   span: {
       fontFamily: 'Inter',
       fontweight: 500,
@@ -32,6 +28,10 @@ export const Content = styled('section', {
 
   marginTop: '114px',
   fontSize: '1.6rem',
+
+  '&:last-child': {
+    paddingBottom: '50px',
+  },
   
   '@media (max-width: 1024px)': {
     display: 'grid',

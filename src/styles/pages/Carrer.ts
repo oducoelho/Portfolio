@@ -1,15 +1,11 @@
 import { styled } from "..";
 
 export const CarrerContainer = styled('section', {
-  display: 'flex',
-  justifyContent: 'space-between',
-  flexDirection: 'column',
-  margin: '0 auto',
-  width: '90%',
-  maxWidth: '1350px',
+  padding: '0px 275px',
+  backgroundColor: 'green',
 })
 export const Header = styled('div', {
-  marginTop: '200px',
+  paddingTop: '100px',
   textAlign: 'center',
 
   span: {
@@ -87,6 +83,11 @@ export const Academica = styled('div', {
   alignItems: 'center',
   gap: '64px',
   fontSize: '1.6rem',
+
+  '&:last-child': {
+    paddingBottom: '50px',
+  },
+   
   div: {  
     width: '100%',
     height: '170px',
@@ -119,7 +120,6 @@ export const Options = styled('div', {
 export const Title = styled('section', {
   display: 'flex',
   flexDirection: 'column',
-  //margin: '0 30px 0 30px',
   h3: {
     fontWeight: 500,
     lineHeight: '2.4rem',

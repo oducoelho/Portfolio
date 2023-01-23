@@ -1,16 +1,10 @@
 import { styled } from "..";
 
 export const ContactContainer =styled('section', {
-  display: 'flex',
-  justifyContent: 'space-between',
-  flexDirection: 'column',
-  margin: '0 auto',
-  width: '80%',
-  maxWidth: '1350px',
+  padding: '0px 275px',
+  backgroundColor: 'red',
 })
 export const Header =styled('div', {
-  marginTop: '114px',
-  
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
@@ -38,7 +32,7 @@ export const Header =styled('div', {
   },
 })
 export const Content =styled('div', {
-  margin: '200px 0px',
+  padding: '150px 0px 200px 0px',
   '@media (max-width: 425px)': {
     display: 'flex',
     flexDirection: 'column',

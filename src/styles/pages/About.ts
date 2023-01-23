@@ -1,12 +1,10 @@
 import { styled } from "..";
 
 export const AboutContainer = styled('section', {
-  display: 'flex',
-  flexDirection: 'column',
-  justifyContent: 'space-between',
-  margin: '0 auto',
-  width: '90%',
-  maxWidth: '1350px',
+  padding: '0px 275px',
+  height: '100vh',
+  backgroundColor: 'red',
+
   '@media (max-width: 425px)': {
     width: '80%',
   },
@@ -15,6 +13,7 @@ export const Content = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
+  paddingTop: '100px',
   span: {
     //paddingRight: '45px',
     fontFamily: 'Inter',

@@ -3,9 +3,8 @@ import { styled } from "..";
 
 export const HomeContainer = styled('section', {
   height: '100vh',
-  margin: '100px auto',
-  width: '90%',
-  maxWidth: '1350px',
+  backgroundColor: 'green',
+  padding: '0px 275px',
   
   '@media (max-width: 425px)': {
     margin: '0 auto',
