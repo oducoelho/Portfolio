@@ -1,18 +1,18 @@
 import { styled } from "..";
 
 export const SkillsContainer = styled('section',{
-  padding: '0px 275px',
+  padding: '0px 275px', 
   '@media (max-width: 688px)': {
     padding: '0px 30px',
   },
 })
 export const Header = styled('div', {
-  paddingTop: '200px',  
+  paddingTop: '100px',  
   '@media (max-width: 425px)': {
     paddingTop: '100px',  
   },
   span: {
-      paddingTop: '115px',
+      paddingTop: '200px',
       paddingRight: '65px',
       fontFamily: 'Inter',
       fontweight: 500,

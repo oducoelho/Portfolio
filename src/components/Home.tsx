@@ -1,4 +1,4 @@
-import { ArrowDown, GithubLogo, InstagramLogo, LinkedinLogo, TwitterLogo, WhatsappLogo } from "phosphor-react"
+import { ArrowDown, GithubLogo, InstagramLogo, LinkedinLogo, TwitterLogo } from "phosphor-react"
 import { Content, Download, HomeContainer, Name, Picture } from "../styles/pages/Home"
 import Aos from 'aos'
 import 'aos/dist/aos.css'
