@@ -5,8 +5,9 @@ export const AboutContainer = styled('section', {
   height: '100vh',
   backgroundColor: 'red',
 
-  '@media (max-width: 425px)': {
-    width: '80%',
+  '@media (max-width: 1200px)': {
+    paddingTop: '8px',
+    padding: '0px 20px',
   },
 })
 export const Content = styled('div', {
@@ -15,7 +16,6 @@ export const Content = styled('div', {
   alignItems: 'center',
   paddingTop: '100px',
   span: {
-    //paddingRight: '45px',
     fontFamily: 'Inter',
     fontweight: 500,
     fontSize: '$ss',
@@ -25,7 +25,6 @@ export const Content = styled('div', {
       paddingTop: '8px',
     },
     '@media (max-width: 425px)': {
-      paddingTop: '228px',
     },
   },
 
@@ -35,8 +34,8 @@ export const Content = styled('div', {
     lineHeight: '5.5rem',
     color: '$white',
     padding: '8px 0 190px 0',
-    '@media (max-width: 768px)': {
-      padding: '8px 0 100px 0',
+    '@media (max-width: 1200px)': {
+      padding: '0px 0 20px 0',
     },
   },
 })
@@ -44,7 +43,7 @@ export const Text = styled('div', {
   display: 'grid',
   gridTemplateColumns: 'repeat(2, 1fr)',
 
-  '@media (max-width: 768px)': {
+  '@media (max-width: 1200px)': {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
@@ -79,10 +78,9 @@ export const P = styled('p', {
   fontSize: '1.6rem', 
 })
 export const Image = styled('div', {
-  '@media (max-width: 768px)': {
+  '@media (max-width: 1200px)': {
     img: {
       width: '125px',
-      //paddingRight: '150px',
       marginBottom: '15px',
     }
   },

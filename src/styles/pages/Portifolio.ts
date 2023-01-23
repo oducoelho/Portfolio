@@ -3,6 +3,9 @@ import { styled } from "..";
 export const PortifolioContainer = styled('section', {
   padding: '0px 275px',
   backgroundColor: 'green',
+  '@media (max-width: 688px)': {
+    padding: '0px 30px',
+  },
 })
 export const Header = styled('div', {
   paddingTop: '100px',
@@ -36,7 +39,6 @@ export const Content = styled('section', {
   '@media (max-width: 1024px)': {
     display: 'grid',
     gridTemplateColumns: 'repeat(2, 1fr)',
-    margin: '80px auto',
     gridGap: '20px',
   },
   

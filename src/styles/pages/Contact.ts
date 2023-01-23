@@ -3,11 +3,16 @@ import { styled } from "..";
 export const ContactContainer =styled('section', {
   padding: '0px 275px',
   backgroundColor: 'red',
+  '@media (max-width: 688px)': {
+    padding: '0px 30px',
+  },
 })
 export const Header =styled('div', {
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
+  paddingTop: '100px',
+  textAlign: 'center',
+  '@media (max-width: 425px)': {
+    textAlign: 'initial',
+  },
 
   span: {
     fontFamily: 'Inter',
@@ -36,7 +41,7 @@ export const Content =styled('div', {
   '@media (max-width: 425px)': {
     display: 'flex',
     flexDirection: 'column',
-    margin: '130px 0px',
+    padding: '170px 0px 50px 0px',
   },
   form: {
     div: {

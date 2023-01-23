@@ -3,10 +3,16 @@ import { styled } from "..";
 export const CarrerContainer = styled('section', {
   padding: '0px 275px',
   backgroundColor: 'green',
+  '@media (max-width: 688px)': {
+    padding: '0px 30px',
+  },
 })
 export const Header = styled('div', {
   paddingTop: '100px',
   textAlign: 'center',
+  '@media (max-width: 425px)': {
+    textAlign: 'initial',
+  },
 
   span: {
     paddingRight: '140px',
@@ -33,15 +39,9 @@ export const Content = styled('section', {
   marginTop: '114px',
   margin: '114px 50px 0 50px',
   gap: '150px',
-  '@media (max-width: 425px)': {
-    margin: '114px auto',
-  },
   '@media (max-width: 768px)': {
     display: 'flex',
     flexDirection: 'column',
-  },
-  '@media (max-width: 1024px)': {
-    margin: '114px auto',
   },
 })
 export const Proficional = styled('section', {

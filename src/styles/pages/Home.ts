@@ -1,20 +1,27 @@
-import { render } from "react-dom";
 import { styled } from "..";
 
 export const HomeContainer = styled('section', {
   height: '100vh',
   backgroundColor: 'green',
-  padding: '0px 275px',
+  padding: '100px 275px',
+
+  '@media (max-width: 768px)': {
+    padding: '0px 1px',
+  },
   
   '@media (max-width: 425px)': {
-    margin: '0 auto',
+    padding: '0 auto',
   },
 })
 export const Content = styled('div', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
-
+  
+  '@media (max-width: 768px)': {
+    padding: '0px 10px',
+  },
+  
   div: {
     color: '$text',
     paddingTop: '42px',
@@ -89,7 +96,8 @@ export const Download = styled('div', {
   },
   '@media (max-width: 768px)': {
     position: 'absolute',
-    top: '750px',
+    top: '595px',
+    left: '510px',
 
     display: 'flex',
     flexDirection: 'row',
@@ -102,6 +110,7 @@ export const Download = styled('div', {
   '@media (max-width: 425px)': {
     position: 'absolute',
     top: '640px',
+    left: '10px',
 
     display: 'flex',
     flexDirection: 'row',
