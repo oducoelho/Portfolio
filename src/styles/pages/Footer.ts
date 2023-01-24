@@ -5,7 +5,7 @@ export const FooterContainer = styled('footer', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
-  backgroundColor: '$gray900',
+  backgroundColor: '$bgPrimary',
   height: '88px',
   width: '100%',
   fontSize: '$ss',
@@ -27,5 +27,9 @@ export const FooterContainer = styled('footer', {
 
   '@media (max-width: 1024px)': {
     fontSize: '$md',
+  },
+  '@media (max-width: 425px)': {
+    padding: '0px 10px',
+    fontSize: '$ss',
   },
 })

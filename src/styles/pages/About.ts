@@ -3,6 +3,7 @@ import { styled } from "..";
 export const AboutContainer = styled('section', {
   padding: '0px 275px',
   height: '100vh',
+  backgroundColor: '$bgSecondery',
 
   '@media (max-width: 1200px)': {
     paddingTop: '8px',

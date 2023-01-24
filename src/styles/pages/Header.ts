@@ -5,7 +5,8 @@ export const HeaderContainer = styled('div', {
   color: '$white100',
   fontFamily: 'Roboto',
   fontWeight: 400,
-  backgroundColor: '#00000080',
+  backgroundColor: '$bgPrimary',
+  //backgroundColor: '#00000080',
 
   display: 'flex',
   justifyContent: 'space-between',
@@ -67,7 +68,7 @@ export const MobileOptions = styled('div', {
   justifyContent: 'center',
   alingItens: 'center',
   position: 'absolute',
-  top: '-9px',
+  top: '0px',
   left: '-23px',
   width: '115%',
   height: '100vh',

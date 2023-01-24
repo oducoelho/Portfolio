@@ -29,7 +29,7 @@ export const globalStyles = globalCss({
   },
   body: {
     margin: '0 auto',
-    backgroundColor: '$background',
+    backgroundColor: '$bgPrimary',
     color: '$white',
     '-webkit-font-smoothing': 'antialiased',
 

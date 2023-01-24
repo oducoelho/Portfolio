@@ -35,10 +35,15 @@ export const {
 
       black: '#000',
 
-      purple: '#7E74F1',
-      purple50: '#7B4AE220',
-      purple100: '#7B4AE280',
-      purple150: '#7B4AE2',
+      //New Colors to improve application
+
+      bgPrimary: '#0F172A',
+      bgSecondery: '#1E293B',
+
+      bgAccent: '#7477FF',
+    
+      textAccent: '#7477FF',
+    
     },
 
     fontSizes: {

@@ -53,18 +53,10 @@ export const Name = styled('div', {
     fontSize: '4.5rem',
     fontWeight: 700,
     color: '$white',
-    position: 'relative',
-    '&:hover': {
-      top: '-5px',
-    }
   },
   p: {
     fontSize: '$md',
     lineHeight: 2.6,
-    position: 'relative',
-    '&:hover': {
-      top: '-5px',
-    }
   },
   ul: {
     listStyle: 'none',
@@ -89,10 +81,6 @@ export const Name = styled('div', {
   },
 })
 export const Download = styled('div', {
-  position: 'relative',
-  '&:hover': {  
-    top: '-5px',
-  },
   '@media (max-width: 768px)': {
     position: 'absolute',
     top: '595px',
@@ -124,29 +112,25 @@ export const Download = styled('div', {
     alignItems: 'center', 
     justifyContent: 'end',
     
-
     fontFamily: 'Inter',
     fontweight: 500,
     fontSize: '$md',
 
     padding: '15px',
-    border: '1px solid $gray100',
+    background: '$bgAccent',
+    color: 'white',
     borderRadius: 8,
 
     a: {
       textDecoration: 'none',
-      color: '$gray100',
+      color: 'white',
     },
 
     cursor: 'pointer',
     
     '&:hover': {
-      backgroundColor: '$gray100',
-      transitionDuration: '10ms',
-      a: {
-        color: '$white',
-        transitionDuration: '10ms',
-      },
+      backgroundColor: 'transparent',
+      border: '1px solid $bgAccent',
     },
   },
 })

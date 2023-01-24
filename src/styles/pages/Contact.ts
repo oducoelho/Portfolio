@@ -2,6 +2,7 @@ import { styled } from "..";
 
 export const ContactContainer =styled('section', {
   padding: '0px 275px',
+  backgroundColor: '$bgSecondery',
   '@media (max-width: 688px)': {
     padding: '0px 30px',
   },
