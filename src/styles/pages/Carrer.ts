@@ -36,7 +36,7 @@ export const Content = styled('section', {
   display: 'grid',
   gridTemplateColumns: 'repeat(2, 1fr)',
   marginTop: '114px',
-  margin: '114px 50px 0 50px',
+  margin: '114px 0px 0 0px',
   gap: '150px',
   '@media (max-width: 768px)': {
     display: 'flex',
