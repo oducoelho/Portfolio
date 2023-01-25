@@ -1,4 +1,4 @@
-import { Assunto, ContactContainer, Content, Email, Header, Menssagem, } from "../styles/pages/Contact"
+import {  ContactContainer, Content, Header } from "../styles/pages/Contact"
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from "react"
@@ -15,30 +15,13 @@ export const Contact = () => {
         <h2>Let's Talk!</h2>
       </Header>
       <Content>
-        <form
-          action="https://formsubmit.co/eduardocoelho619@gmail.com"
-          method="POST"
-        >
-          <div id="Footer">
-            <Email data-aos='fade-up'>
-              <input type="text" name="email" placeholder="Email" />
-            </Email>
-            <Assunto data-aos='fade-up'>
-              <input type="text" name="assunto" placeholder="Subject" />
-            </Assunto>
-            <Menssagem data-aos='fade-up'>
-              <input type="text" name="menssagem" placeholder="Message " />
-            </Menssagem>
-            <button 
-              data-aos='fade-up'
-              type="submit" 
-            >
-              Enviar
-            </button>
+        <div id="Footer">
+          <div>
+            <p><strong>E-mail:</strong> eduardocoelho619@gmail.com</p>
+            <p><strong>Phone:</strong> {"(19) 9 7168-7361"}</p>
           </div>
-        </form>
+        </div>
       </Content>
-
     </ContactContainer>
   )
 }
