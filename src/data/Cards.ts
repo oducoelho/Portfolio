@@ -6,6 +6,8 @@ import CoffeeDelivery from '../assets/portfolio/CoffeeDelivery.jpg'
 import IgniteTimer from '../assets/portfolio/IgniteTimer.jpg'
 import NLWCopa from '../assets/portfolio/NLWCopa.jpg'
 import NLWeSports from '../assets/portfolio/NLWEsports.jpg'
+import NLWSetup from '../assets/portfolio/oducoelhocall.jpg'
+import OducoelhoCall from '../assets/portfolio/nlwsetup.jpg'
 
 
 import html from '../assets/html.png'  
@@ -56,6 +58,24 @@ export const HeaderData = [
 export const PortifolioData = [
   {
     id: 1,
+    image: NLWSetup,
+    title: 'NLW Setup',
+    resume: 'Application developed during NLW Setup - Ignite. Habits is an app for monitoring daily tasks to help its users track their activities done and not done, with a dynamic similar to github commits.',
+    lenguage: 'React',
+    lenguage2: 'Node JS',
+    code: 'https://github.com/oducoelho/NLW-Setup'
+  },
+  {
+    id: 2,
+    image: OducoelhoCall,
+    title: 'Oducoelho Call',
+    resume: 'In this application the user can log into the site using their google account and connecting their calendar to the application, allowing people to book appointments in their free time.',
+    lenguage: 'React',
+    lenguage2: 'NextJs',
+    code: 'https://github.com/oducoelho/oducoelho-call'
+  },
+  {
+    id: 3,
     image: NLWCopa,
     title: 'NLW Copa',
     resume: 'Project created during the NLW COPA event where a web and mobile platform was developed where we can create pools and make our guesses.',
@@ -64,7 +84,7 @@ export const PortifolioData = [
     code: 'https://github.com/oducoelho/NLW_Copa_Ignite'
   },
   {
-    id: 2,
+    id: 4,
     image: IgniteShop,
     title: 'Ignite Shop 2.0',
     resume: 'Through the application, the number of items that the person wants to buy, with the option to add and remove items before proceeding to checkout.',
@@ -73,7 +93,7 @@ export const PortifolioData = [
     code: 'https://github.com/oducoelho/Ignite_Shop'
   },
   {
-    id: 3,
+    id: 5,
     image: DTMoney,
     title: 'DT Money',
     resume: 'A careful application for monitoring your finances, with the options to add your money inflows and outflows.',
@@ -82,7 +102,7 @@ export const PortifolioData = [
     code: 'https://github.com/oducoelho/03-DT-Money'
   },
   {
-    id: 4,
+    id: 6,
     image: GitHub,
     title: 'GitHub Blog',
     resume: 'In this project, an application was developed that uses the GitHub API to search within the repository, the data and issues, from the profile and display them as a blog.',
@@ -91,7 +111,7 @@ export const PortifolioData = [
     code: 'https://github.com/oducoelho/GitHubBlog'
   },
   {
-    id: 5,
+    id: 7,
     image: IgniteTimer,
     title: 'Ignite Timer',
     resume: 'An application of the Pomodoro technique, which consists of using a stopwatch to divide work into 25-minute periods, separated by short breaks.',
@@ -100,7 +120,7 @@ export const PortifolioData = [
     code: 'https://github.com/oducoelho/Ignite-Timer'
   },
   {
-    id: 6,
+    id: 8,
     image: NLWeSports,
     title: 'NLW eSports',
     resume: 'Project carried out at NLW eSports, which consists of an application to find people who play the same game as you, and are without a duo to play.',
@@ -109,7 +129,7 @@ export const PortifolioData = [
     code: 'https://github.com/oducoelho/NLW-eSports-Trilha-ignite'
   },
   {
-    id: 7,
+    id: 9,
     image: CoffeeDelivery,
     title: 'Coffee Delivery',
     resume: 'Application with 3 screens, the first being a presentation screen. On the second screen, a form with your address data and the items in your cart. E On the last screen, an order confirmation is displayed.',
@@ -118,7 +138,7 @@ export const PortifolioData = [
     code: 'https://github.com/oducoelho/CoffeeDelivery'
   },
   {
-    id: 8,
+    id: 10,
     image: TodoList,
     title: 'To-do-List',
     resume: 'An application inspired by a ToDo List, with the functions to insert a new task, mark it as done, and delete it.',
