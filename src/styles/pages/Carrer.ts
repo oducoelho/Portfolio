@@ -55,22 +55,22 @@ export const Proficional = styled('section', {
     display: 'flex',
     justifyContent: 'center',
     flexDirection: 'column',
-    boxShadow: '0 5px 10px gray',
+    boxShadow: '0 5px 10px #354985',
     borderRadius: 15,
     '&:hover': {
       transform: 'scale(1.05)',
       transitionDuration: '300ms',
-      backgroundColor: 'gray',
-      color: '$black',
+      backgroundColor: '$bgSecondery',
+      color: '$white',
       cursor: 'pointer',
       h3: {
-        color: '$black'
+        color: '$white'
       },
       p: {
-        color: '$black'
+        color: '$white'
       },
       span: {
-        color: '$black'
+        color: '$white'
       },
     }
   },
@@ -93,22 +93,22 @@ export const Academica = styled('div', {
     display: 'flex',
     justifyContent: 'center',
     flexDirection: 'column',
-    boxShadow: '0 5px 10px gray',
+    boxShadow: '0 5px 10px #354985',
     borderRadius: 15,
     '&:hover': {
       transform: 'scale(1.05)',
       transitionDuration: '300ms',
-      backgroundColor: 'gray',
-      color: '$black',
+      backgroundColor: '$bgSecondery',
+      color: '$white',
       cursor: 'pointer',
       h3: {
-        color: '$black'
+        color: '$white'
       },
       p: {
-        color: '$black'
+        color: '$white'
       },
       span: {
-        color: '$black'
+        color: '$white'
       },
     }
   }

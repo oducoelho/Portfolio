@@ -50,24 +50,24 @@ export const Content = styled('section', {
   div: { 
     width: '305px',
     height: '440',
-    boxShadow: '0 5px 10px gray',
+    boxShadow: '0 5px 10px #354985',
     borderRadius: 15,
     overflow: 'hidden',
 
     '&:hover': {
       transform: 'scale(1.05)',
       transitionDuration: '300ms',
-      backgroundColor: 'gray',
-      color: '$black',
+      backgroundColor: '$bgSecondery',
+      color: '$white',
 
 
       h3: {
         fontWeight: 'bold',
-        color: '$black',
+        color: '$white',
       },
 
       p: {
-        color: '$black',
+        color: '$white',
         fontSize: '$ss',
         display: '-webkit-box',
         '-webkit-box-orient': 'vertical',
@@ -76,7 +76,7 @@ export const Content = styled('section', {
       span: {
         fontWeight: 'bold',
         color: '$black',
-        backgroundColor: '#c0c0c0',
+        backgroundColor: '#354985',
       }
     },
     img: {
@@ -123,7 +123,7 @@ export const Tags = styled('section', {
     fontSize: '$ss',
     color: '$white100',
 
-    backgroundColor: '#d3d3d340',
+    backgroundColor: '#354985',
     borderRadius: 4,
     padding: '5px',
   },

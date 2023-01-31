@@ -66,7 +66,7 @@ export const Box = styled('div', {
   div: {
     width: '200px',
     height: '200px',
-    boxShadow: '0 5px 10px gray',
+    boxShadow: '0 5px 10px #354985',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
