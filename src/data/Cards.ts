@@ -6,8 +6,8 @@ import CoffeeDelivery from '../assets/portfolio/CoffeeDelivery.jpg'
 import IgniteTimer from '../assets/portfolio/IgniteTimer.jpg'
 import NLWCopa from '../assets/portfolio/NLWCopa.jpg'
 import NLWeSports from '../assets/portfolio/NLWEsports.jpg'
-import NLWSetup from '../assets/portfolio/oducoelhocall.jpg'
-import OducoelhoCall from '../assets/portfolio/nlwsetup.jpg'
+import OducoelhoCall from '../assets/portfolio/oducoelhocall.jpg'
+import NLWSetup from '../assets/portfolio/nlwsetup.jpg'
 
 
 import html from '../assets/html.png'  
