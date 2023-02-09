@@ -72,11 +72,12 @@ export const Box = styled('div', {
     alignItems: 'center',
     justifyContent: 'center', 
     borderRadius: 15,
-    
+
     '&:hover': {
       transform: 'scale(1.05)',
-      transitionDuration: '300ms',
+      transitionDuration: '300ms', 
     },
+  
     p: {
       fontSize: '$md',
       marginTop: '15px',
