@@ -25,7 +25,7 @@ export const Services = () => {
               👋 My name is Eduardo Coelho, but you can just call me Eduardo. Pleasure!
             </P>
             <Span>
-              👨‍💻 For over 8 months developing and programming interfaces with JavaScript, React JS and Typescript.
+              👨‍💻 For over 10 months developing and programming interfaces with JavaScript, React JS and Typescript.
             </Span>
             <P>
             🎓 Graduating in Systems Analysis and Development at UNIFEOB University 

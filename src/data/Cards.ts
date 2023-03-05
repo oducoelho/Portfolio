@@ -163,7 +163,7 @@ export const ProfissionalData  = [
     id: 1,
     title: 'Freelancer',
     resume: 'Development websites and aplications for IOS and android.',
-    time: '5 months',
+    time: '8 months',
     date: 'July/2022 · Atualmente'
   },
   {
@@ -185,7 +185,7 @@ export const AcademicaData  = [
     id: 2,
     title: 'RocketSeat Ignite',
     resume: 'Adoption program for developers focused on ReactJs ReactNative and NodeJs.',
-    time: '5 months',
+    time: '8 months',
     date: 'July/2022 · Atualmente'
   },
   {
